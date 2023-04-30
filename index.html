@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kirameki Total Beauty</title>
   <meta name="description" content="美容に特化した医師が監修したサロンKirameki Total Beauty">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=noto+Serif+JP:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <!-- リセットCSS -->
   <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
   <!-- font FontAwesome -->
@@ -17,33 +23,28 @@
 </head>
 
 <body>
+  <!-- headerここから -->
   <header class="header">
-    <div class="contents-width">
-      <h1 class="logo">
+    <div class="header-inner">
+      <h1 class="header-logo">
         <img src="images/logo_kirameki_total_beauty.png" alt="Kirameki Total Beauty">
       </h1>
-      <nav class="nav flex pc-nav">
-        <ul class="flex">
-          <li><a href="#shop">施設概要</a></li>
-          <li><a href="#access">アクセス</a></li>
-          <li><a href="#faq">お問合せ</a></li>
-        </ul>
-        <a class="nav-button" href="#">無料カウンセリング＞</a>
-      </nav>
-      <div class="no-pc hamburger-icon">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-    <div class="contents-width">
-      <div class="nav hamburger-nav">
-        <ul>
-          <li><a href="#shop">施設概要</a></li>
-          <li><a href="#access">アクセス</a></li>
-          <li><a href="#faq">お問合せ</a></li>
-        </ul>
+      <button class="toggle-menu-button"><i class="fas fa-bars"></i></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="#shop">施設概要</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#contact">お問合せ</a></li>
+            <a class="nav-top-button no-sp" href="#">無料カウンセリング＞</a>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
+  <!-- headerここまで -->
+
+  <!-- coverここから -->
   <div class="cover">
     <div class="swiper pc">
       <div class="swiper-wrapper">
@@ -51,17 +52,13 @@
         <div class="swiper-slide"><img src="images/cover_02_pc.jpg" alt="PCイメージ2"></div>
         <div class="swiper-slide"><img src="images/cover_03_pc.jpg" alt="PCイメージ3"></div>
       </div>
-      <div class="swiper sp">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="images/cover_01_sp.jpg" alt="SPイメージ1"></div>
-          <div class="swiper-slide"><img src="images/cover_02_sp.jpg" alt="SPイメージ2"></div>
-          <div class="swiper-slide"><img src="images/cover_03_sp.jpg" alt="SPイメージ3"></div>
-        </div>
-      </div>
-      <h2>いつまでもキレイでいたい<br>全ての女性のために</h2>
     </div>
+    <h2>いつまでもキレイでいたい<br>全ての女性のために</h2>
+  </div>
+  <!-- coverここまで -->
 
-  <div class="point container">
+  <!-- pointここから -->
+  <div class="point">
     <ul class="flex">
       <li>
         <div class="circle">魅力<b>1</b></div>
@@ -81,42 +78,115 @@
       </li>
     </ul>
   </div>
-  <section class="contact">
+  <!-- pointここまで -->
+
+  <!-- contactここから -->
+  <div class="contact">
     <h3>美容に特化した医師が監修したサロン</h3>
     <ul class="check">
-      <li>
-        <p>無理な勧誘は一切ありません。</p>
+      <li class="text">
+        <i class="fa-regular fa-square"></i>無理な勧誘は一切ありません。
       </li>
-      <li>
-        <p>必要な施術のみをご案内します。</p>
+      <li class="text">
+        <i class="fa-regular fa-square"></i>必要な施術のみをご案内します。
       </li>
     </ul>
-    <a href="#" class="cv_button">無料カウンセリング＞</a>
-  </section>
+    <a href="#" class="cv-button">無料カウンセリング＞</a>
+  </div>
+  <!-- contactここまで -->
 
-  <section class="feature">
+  <!-- feacureここから -->
+  <div class="feature-header">
     <h3>4つの特徴</h3>
-    <section class="counseling">
-      <div class="sub-title">
-        <h4>01.</h4>
-        <p><span class="marker">美容専門医</span>による<br class="no-pc">カウンセリング</p>
-      </div>
-      施術前にじっくり丁寧にカウンセリング
-      アンケート記入
-      約30問のアンケートを記入していただきます。 説明しにくい症状も感覚で記入できるよう工夫しています。
-      カウンセリング
-      カウンセリングは美容に特化した医師が担当します。 お気軽に美容に関するお悩みをご相談ください。
-      お見積もり
-      当サロンではその場でのお申し込みを行っておりません。 後日お送りするお見積もりをご確認いただきご検討ください。
-    </section>
-    <section class="price">
-      <div class="sub-title">
-        <h4>02.</h4>
-        <p>月々の施術費用は<br class="no-pc"><span class="marker">19,800円(税込)</span></p>
-      </div>
-      <div class="wrap">
-        <header class="title">入会金</header>
-      </div>
-    </section>
+  </div>
+  <!-- feacureここまで -->
+
+  <!-- counselingここから -->
+  <section class="counseling">
+    <div class="sub-title">
+      <h4>01.</h4>
+      <p class="sub-title-text"><span class="marker">美容専門医</span>による<br class="no-pc">カウンセリング</p>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <tr>
+          <th class="table-head" colspan="2">施術前にじっくり丁寧にカウンセリング</th>
+        </tr>
+        <tr>
+          <td class="row-head">アンケート記入</td>
+          <td class="table-date">約30問のアンケートを記入していただきます。<br>説明しにくい症状も感覚で記入できるよう工夫しています。</td>
+        </tr>
+        <tr>
+          <td class="row-head">カウンセリング</td>
+          <td class="table-date">カウンセリングは美容に特化した医師が担当します。<br>お気軽に美容に関するお悩みをご相談ください。</td>
+        </tr>
+        <tr>
+          <td class="row-head-bottom">お見積もり</td>
+          <td class="table-date-bottom">当サロンではその場でのお申し込みを行っておりません。<br>後日お送りするお見積もりをご確認いただきご検討ください</td>
+        </tr>
+      </table>
+    </div>
   </section>
+  <!-- counselingここまで -->
+
+  <div class="price">
+    <div class="sub-title">
+      <h4>02.</h4>
+      <p class="sub-title-text">月々の施術費用は<br class="no-pc"><span class="marker">19,800円(税込)</span></p>
+    </div>
+    <div class="price-box flex">
+      <div class="price-small-box">
+        <div class="price-box-title">月額料金</div>
+        <p class="price-box-title-under">19,800円<small>(税込)</small></p>
+      </div>
+      <div class="price-small-box">
+        <div class="price-box-title">入会金</div>
+        <p class="price-box-title-under">8,800円<small>(税込)</small></p>
+      </div>
+    </div>
+    <div class="message">治療薬を処方させていただく場合は別途費用が発生いたします</div>
+  </div>
+
+  <div class="shop">
+    <div class="sub-title">
+      <h4> 03.</h4>
+      <p class="sub-title-text"><span class="marker">施術は全室個室</span><br class="no-pc">でプライベートを確保</p>
+    </div>
+    <div class="shop-box flex">
+      <div class="shop-small-box">
+        <img src="./images/point3_01.jpg" alt="店舗概要1">
+        <div class="shop-small-box-text">カーテンで区切られた半個室ではなく、扉をしめることでプライベートな時間を完全に確保できる個室をご用意しております。</div>
+      </div>
+      <div class="shop-small-box">
+        <img src="./images/point3_02.jpg" alt="店舗概要2">
+        <div class="shop-small-box-text">
+          リラックスした時間をお過ごしいただくために、その時
+          の気分に合わせて、お好きなアロマをお選びいただくこ とができます。</div>
+      </div>
+    </div>
+
+    <div class="acsses">
+      <div class="sub-title">
+        <h4> 04.</h4>
+        <p class="sub-title-text">アクセス便利な<span class="marker">東京駅から徒歩3分</span><br class="no-pc"></p>
+        <div class="acsses-map"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.6567849206067!2d139.80812547599174!3d35.71006267257804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1682856379715!5m2!1sja!2sjp"
+            width="1150" height="485" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="acsess-address">
+          JR東京駅丸の内地下中央口改札から出て徒歩3分。雨の日でも濡れずにお越しいただくことができます。</div>
+      </div>
+
+    </div>
+    <footer class="footer">
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
+</html>
