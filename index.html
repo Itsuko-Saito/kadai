@@ -16,13 +16,13 @@
   <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
   <!-- font FontAwesome -->
   <script src="https://kit.fontawesome.com/43af0f718a.js" crossorigin="anonymous"></script>
-  <script defer="" src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  <script defer="" src="https://use.fontawesome.com/releases/v5.14.4/js/all.js"></script>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
-<body>
+<div>
   <!-- headerここから -->
   <header class="header">
     <div class="header-inner">
@@ -36,7 +36,7 @@
             <li><a href="#shop">施設概要</a></li>
             <li><a href="#access">アクセス</a></li>
             <li><a href="#contact">お問合せ</a></li>
-            <a class="nav-top-button no-sp" href="#">無料カウンセリング＞</a>
+            <a class="nav-top-button no-sp" href="#">無料カウンセリング</a>
           </ul>
         </nav>
       </div>
@@ -46,13 +46,17 @@
 
   <!-- coverここから -->
   <div class="cover">
-    <div class="swiper pc">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/cover_01_pc.jpg" alt="PCイメージ1"></div>
-        <div class="swiper-slide"><img src="images/cover_02_pc.jpg" alt="PCイメージ2"></div>
-        <div class="swiper-slide"><img src="images/cover_03_pc.jpg" alt="PCイメージ3"></div>
+    <div class="css-carousel-slider">
+      <div class="slide-wrap-main">
+        <div class="slide"><img src="images/cover_01_pc.jpg" alt=""></div><!-- 最初に表示される画像(*1) -->
+      </div>
+      <div class="slide-wrap">
+        <div class="slide"><img src="images/cover_01_pc.jpg" alt=""></div><!-- スライド画像(*2) -->
+        <div class="slide"><img src="images/cover_02_pc.jpg" alt=""></div>
+        <div class="slide"><img src="images/cover_03_pc.jpg" alt=""></div>
       </div>
     </div>
+    <!-- テストここまで -->
     <h2>いつまでもキレイでいたい<br>全ての女性のために</h2>
   </div>
   <!-- coverここまで -->
@@ -85,108 +89,183 @@
     <h3>美容に特化した医師が監修したサロン</h3>
     <ul class="check">
       <li class="text">
-        <i class="fa-regular fa-square"></i>無理な勧誘は一切ありません。
+        <i class="far fa-square"></i>無理な勧誘は一切ありません。
       </li>
       <li class="text">
-        <i class="fa-regular fa-square"></i>必要な施術のみをご案内します。
+        <i class="far fa-square"></i>必要な施術のみをご案内します。
       </li>
     </ul>
-    <a href="#" class="cv-button">無料カウンセリング＞</a>
+    <button href="#" class="cv-button">無料カウンセリング</button>
   </div>
-  <!-- contactここまで -->
+</div>
+<i class="far fa-greater-than"></i>
+<!-- contactここまで -->
 
-  <!-- feacureここから -->
-  <div class="feature-header">
-    <h3>4つの特徴</h3>
+<!-- feacureここから -->
+<div class="feature-header">
+  <h3>4つの特徴</h3>
+</div>
+<!-- feacureここまで -->
+
+<!-- counselingここから -->
+<section class="counseling">
+  <div class="sub-title">
+    <h4>01.</h4>
+    <p class="sub-title-text"><span class="marker">美容専門医</span>による<br class="no-pc">カウンセリング</p>
   </div>
-  <!-- feacureここまで -->
 
-  <!-- counselingここから -->
-  <section class="counseling">
-    <div class="sub-title">
-      <h4>01.</h4>
-      <p class="sub-title-text"><span class="marker">美容専門医</span>による<br class="no-pc">カウンセリング</p>
+  <div class="table-wrapper">
+    <table>
+      <tr>
+        <th class="table-head" colspan="2">施術前にじっくり丁寧にカウンセリング</th>
+      </tr>
+      <tr>
+        <td class="row-head">アンケート記入</td>
+        <td class="table-date">約30問のアンケートを記入していただきます。<br>説明しにくい症状も感覚で記入できるよう工夫しています。</td>
+      </tr>
+      <tr>
+        <td class="row-head">カウンセリング</td>
+        <td class="table-date">カウンセリングは美容に特化した医師が担当します。<br>お気軽に美容に関するお悩みをご相談ください。</td>
+      </tr>
+      <tr>
+        <td class="row-head-bottom">お見積もり</td>
+        <td class="table-date-bottom">当サロンではその場でのお申し込みを行っておりません。<br>後日お送りするお見積もりをご確認いただきご検討ください</td>
+      </tr>
+    </table>
+  </div>
+</section>
+<!-- counselingここまで -->
+
+<div class="price">
+  <div class="sub-title">
+    <h4>02.</h4>
+    <p class="sub-title-text">月々の施術費用は<br class="no-pc"><span class="marker">19,800円(税込)</span></p>
+  </div>
+  <div class="price-box flex">
+    <div class="price-small-box">
+      <div class="price-box-title">入会金</div>
+      <p class="price-box-title-under">8,800円<small>(税込)</small></p>
     </div>
+    <div class="price-small-box">
+      <div class="price-box-title">月額料金</div>
+      <p class="price-box-title-under">19,800円<small>(税込)</small></p>
+    </div>
+  </div>
+  <div class="message">治療薬を処方させていただく場合は別途費用が発生いたします</div>
+</div>
 
-    <div class="table-wrapper">
-      <table>
-        <tr>
-          <th class="table-head" colspan="2">施術前にじっくり丁寧にカウンセリング</th>
-        </tr>
-        <tr>
-          <td class="row-head">アンケート記入</td>
-          <td class="table-date">約30問のアンケートを記入していただきます。<br>説明しにくい症状も感覚で記入できるよう工夫しています。</td>
-        </tr>
-        <tr>
-          <td class="row-head">カウンセリング</td>
-          <td class="table-date">カウンセリングは美容に特化した医師が担当します。<br>お気軽に美容に関するお悩みをご相談ください。</td>
-        </tr>
-        <tr>
-          <td class="row-head-bottom">お見積もり</td>
-          <td class="table-date-bottom">当サロンではその場でのお申し込みを行っておりません。<br>後日お送りするお見積もりをご確認いただきご検討ください</td>
-        </tr>
+<div class="shop">
+  <div class="sub-title">
+    <h4>03.</h4>
+    <p class="sub-title-text"><span class="marker">施術は全室個室</span><br class="no-pc">でプライベートを確保</p>
+  </div>
+  <div class="shop-box flex">
+    <div class="shop-small-box">
+      <div class="scroll_up">
+        <img src="./images/point3_01.jpg" alt="店舗概要1">
+      </div>
+      <div class="shop-small-box-text">カーテンで区切られた半個室ではなく、扉をしめることでプライベートな時間を完全に確保できる個室をご用意しております。</div>
+    </div>
+    <div class="shop-small-box">
+      <div class="scroll_up">
+        <img src="./images/point3_02.jpg" alt="店舗概要2">
+      </div>
+      <div class="shop-small-box-text">
+        リラックスした時間をお過ごしいただくために、その時
+        の気分に合わせて、お好きなアロマをお選びいただくこ とができます。</div>
+    </div>
+  </div>
+
+  <div class="acsses">
+    <div class="sub-title">
+      <h4>04.</h4>
+      <p class="sub-title-text">アクセス便利な<span class="marker">東京駅から徒歩3分</span><br class="no-pc"></p>
+      <div class="acsses-map"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.6567849206067!2d139.80812547599174!3d35.71006267257804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1682856379715!5m2!1sja!2sjp"
+          width="1150" height="485" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="acsess-address">
+        JR東京駅丸の内地下中央口改札から出て徒歩3分。雨の日でも濡れずにお越しいただくことができます。</div>
+    </div>
+  </div>
+  <div class="time-table-box">
+    <div class="time-table">
+      東京都中央区丸の内△-△△-△△ ◎◎◎◎◎◎ビル16階
+      <table class="biz-hour">
+        <tbody>
+          <tr>
+            <th></th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th>土</th>
+            <th>日祝</th>
+          </tr>
+          <tr>
+            <td>午前</td>
+            <td><i class="fas fa-circle"></i></td><!-- 月 -->
+            <td><i class="fas fa-circle"></i></td><!-- 火 -->
+            <td><i class="fas fa-circle"></i></td><!-- 水 -->
+            <td>休</td><!-- 木 -->
+            <td><i class="fas fa-circle"></i></td><!-- 金 -->
+            <td><i class="fas fa-circle"></i></td><!-- 土 -->
+            <td><i class="fas fa-circle"></i></td><!-- 日 -->
+          </tr>
+          <tr>
+            <td>午後</td>
+            <td>●</td><!-- 月 -->
+            <td>●</td><!-- 火 -->
+            <td>●</td><!-- 水 -->
+            <td>休</td><!-- 木 -->
+            <td>●</td><!-- 金 -->
+            <td>●</td><!-- 土 -->
+            <td>●</td><!-- 日 -->
+          </tr>
+        </tbody>
       </table>
     </div>
-  </section>
-  <!-- counselingここまで -->
-
-  <div class="price">
-    <div class="sub-title">
-      <h4>02.</h4>
-      <p class="sub-title-text">月々の施術費用は<br class="no-pc"><span class="marker">19,800円(税込)</span></p>
-    </div>
-    <div class="price-box flex">
-      <div class="price-small-box">
-        <div class="price-box-title">月額料金</div>
-        <p class="price-box-title-under">19,800円<small>(税込)</small></p>
-      </div>
-      <div class="price-small-box">
-        <div class="price-box-title">入会金</div>
-        <p class="price-box-title-under">8,800円<small>(税込)</small></p>
-      </div>
-    </div>
-    <div class="message">治療薬を処方させていただく場合は別途費用が発生いたします</div>
   </div>
 
-  <div class="shop">
+  <div class="qa">
     <div class="sub-title">
-      <h4> 03.</h4>
-      <p class="sub-title-text"><span class="marker">施術は全室個室</span><br class="no-pc">でプライベートを確保</p>
-    </div>
-    <div class="shop-box flex">
-      <div class="shop-small-box">
-        <img src="./images/point3_01.jpg" alt="店舗概要1">
-        <div class="shop-small-box-text">カーテンで区切られた半個室ではなく、扉をしめることでプライベートな時間を完全に確保できる個室をご用意しております。</div>
+      <h4>FAQ</h4>
+      <div class="qa-box">
+        <dl>
+          <dt>肌にアレルギーがあるのですが施術を受けることはできますか？</dt>
+          <dd>カウンセリング時に医師にご相談ください。</dd>
+        </dl>
+        <dl>
+          <dt>どれくらいの期間通うことになりますか？</dt>
+          <dd>症状や施術内容によって変わりますが、半年〜1年通っていただく方が多いです。</dd>
+        </dl>
+        <dl>
+          <dt>途中で解約することはできますか？</dt>
+          <dd>いつでも途中解約することが可能です。月の途中で解約される場合はその月の月額料金は発生してしまいますので、予めご了承ください。</dd>
+        </dl>
+        <dl>
+          <dt>アロマは何種類ありますか？</dt>
+          <dd>常時50種類以上のアロマをご用意しております。ご指定の香りがある場合はカウンセリング時に ご相談ください。</dd>
+        </dl>
+        <dl>
+          <dt>施術当日はお化粧をしたままで良いですか？</dt>
+          <dd>施術前にお化粧を落としていただくお部屋をご用意しておりますので、お化粧をしたままご来店 いただけます。</dd>
+        </dl>
       </div>
-      <div class="shop-small-box">
-        <img src="./images/point3_02.jpg" alt="店舗概要2">
-        <div class="shop-small-box-text">
-          リラックスした時間をお過ごしいただくために、その時
-          の気分に合わせて、お好きなアロマをお選びいただくこ とができます。</div>
-      </div>
-    </div>
+      </section>
 
-    <div class="acsses">
-      <div class="sub-title">
-        <h4> 04.</h4>
-        <p class="sub-title-text">アクセス便利な<span class="marker">東京駅から徒歩3分</span><br class="no-pc"></p>
-        <div class="acsses-map"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.6567849206067!2d139.80812547599174!3d35.71006267257804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1682856379715!5m2!1sja!2sjp"
-            width="1150" height="485" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="acsess-address">
-          JR東京駅丸の内地下中央口改札から出て徒歩3分。雨の日でも濡れずにお越しいただくことができます。</div>
-      </div>
+      <footer class="footer">
+        <h1 class="footer-logo">
+          <img src="images/logo_kirameki_total_beauty.png" alt="Kirameki Total Beauty">
+          <p class="copyright"><small>© 2004-2021 Kirameki Total Beauty Co. Ltd. All Rights Reserved.</small></p>
+      </footer>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+      <script src="js/main.js"></script>
 
-    </div>
-    <footer class="footer">
-    </footer>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
+      </body>
 
 </html>
