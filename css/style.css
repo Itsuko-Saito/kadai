@@ -38,6 +38,10 @@ img {
   display: none;
 }
 
+.marker {
+  background: linear-gradient(#ffffff 20%, #B5E9EE 10%, #B5E9EE 85%, #ffffff 35%)
+}
+
 /* headerここから */
 .header {
   position: fixed;
@@ -210,7 +214,6 @@ img {
   text-align: center;
   font-size: 48px;
   color: #0097A7;
-  font-weight: bold;
   line-height: 1.2;
   font-family: 'Noto Serif JP';
   font-weight: 700;
@@ -239,7 +242,7 @@ img {
   line-height: 1.2;
 }
 
-.cv-button {
+.contact .cv-button {
   display: block;
   text-align: center;
   margin: 33px auto 0;
@@ -256,16 +259,15 @@ img {
   padding: 17px 0 0 50px;
 }
 
-.cv-button .far {
+.contact .cv-button .far {
   color: #FEFEFE;
 }
 
-/* pointここまで */
+/* contactここまで */
 
 /* featureここから */
 .feature h3 {
   max-width: 1366px;
-  height: 110px;
   text-align: center;
   font-size: 48px;
   color: #0097A7;
@@ -280,10 +282,7 @@ img {
   max-width: 1366px;
   height: 470px;
   text-align: center;
-}
-
-.counseling .sub-title {
-  margin-top: 41px;
+  margin-top: 42px;
 }
 
 .counseling .sub-title h4 {
@@ -301,10 +300,6 @@ img {
   font-family: 'Noto Serif JP';
   font-weight: 400;
   margin-top: 20px;
-}
-
-.marker {
-  background: linear-gradient(transparent 10%, #B5E9EE 10%);
 }
 
 .table-wrapper {
@@ -379,12 +374,8 @@ img {
 /* priceここから */
 .price {
   max-width: 1366px;
-  height: 400px;
   text-align: center;
-}
-
-.price .sub-title {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .price .sub-title h4 {
@@ -452,9 +443,8 @@ img {
 /* shopここから */
 .shop {
   max-width: 1366px;
-  height: 500px;
   text-align: center;
-  margin-top: 48px;
+  margin-top: 42px;
 }
 
 .shop .sub-title h4 {
@@ -499,8 +489,8 @@ img {
 /* accessここから */
 .access {
   max-width: 1366px;
-  height: 700px;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .access .sub-title h4 {
@@ -521,7 +511,7 @@ img {
 }
 
 .access-map {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .access-address {
@@ -531,32 +521,39 @@ img {
 /* accessここまで */
 
 /* time-tableここから */
-.time-table-box {
+.time-table {
   max-width: 1366px;
-  height: 210px;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 60px;
 }
 
 .time-table-address {
-  width: 950px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 32px;
 }
 
 .biz-hour {
-  display: block;
+  width: 950px;
+  height: 101px;
+  margin: 0 auto;
   border-collapse: collapse;
-  overflow-x: scroll;
+  margin-top: 26px;
 }
 
 .biz-hour td {
-  padding: 10px;
+  font-size: 24px;
+  padding: 7px;
   text-align: center;
-  border-bottom: 2px solid #0097A7;
+  border-bottom: 1px solid #606060;
+  ;
 }
 
-/* 最上段の表の見出し。background-colorを書き換えれば背景色が変わります。 */
+.biz .th1 {
+  padding-left: 30px;
+}
+
 .biz-hour th {
   font-weight: normal;
   background-color: #0097A7;
@@ -567,29 +564,90 @@ img {
   line-height: 1.2;
 }
 
+/* time-tableここまで */
+
+/* contact-2ndここから */
+.contact-2nd {
+  background-color: #B5E9EE;
+  max-width: 1366px;
+  height: 437px;
+}
+
+.contact-2nd h3 {
+  text-align: center;
+  font-size: 48px;
+  color: #0097A7;
+  line-height: 1.2;
+  font-family: 'Noto Serif JP';
+  font-weight: 700;
+}
+
+.contact-2nd .text {
+  font-size: 24.03px;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.contact-2nd .far {
+  text-shadow: 0px 3px 0px #2020204C;
+  padding-right: 23px;
+  padding-bottom: 25px;
+}
 
 
+.contact-2nd .check {
+  margin-left: 470px;
+  margin-top: 54px;
+  font-family: 'Noto Sans JP';
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+  line-height: 1.2;
+}
 
+.contact-2nd .cv-button {
+  display: block;
+  text-align: center;
+  margin: 33px auto 0;
+  background-color: #0097A7;
+  box-shadow: 10px 10px #2020204F;
+  border-radius: 15px;
+  font-family: 'Noto Sans JP';
+  width: 558px;
+  height: 78px;
+  font-size: 32px;
+  color: #FEFEFE;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 17px 0 0 50px;
+}
+
+.contact-2nd .cv-button .far {
+  color: #FEFEFE;
+}
+
+/* contact-2ndここまで */
+
+/*  qaここから */
 .qa {
   max-width: 1366px;
-  height: 800px;
-  padding-top: 6rem;
-  padding-bottom: 9rem;
 }
 
 .qa .sub-title h4 {
+  padding-top: 47px;
+  text-align: center;
   font-size: 48px;
-  color: #606060;
+  color: #0097A7;
   line-height: 1.2;
   font-family: 'Noto Serif JP';
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .qa-box {
   width: 100%;
   max-width: 1136px;
   margin: 0 auto;
-  padding: 0 1.6rem;
+  padding: 0 93px;
   overflow: hidden;
 }
 
@@ -602,7 +660,6 @@ img {
 
 .qa dl {
   background: #fff;
-  margin: 4rem 0 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -615,9 +672,9 @@ img {
   }
 }
 
-.qa dl dt,
-.qa dl dd {
-  padding: 2.55rem 7.5rem 2.15rem 8rem;
+.qa dl dt {
+  margin-top: 57px;
+  padding: 2px 38px 17px;
   border-bottom: #0097A7 2px solid;
   font-weight: 500;
   position: relative;
@@ -625,6 +682,41 @@ img {
   color: #0097A7;
   line-height: 1.2;
 }
+
+.qa dl dt:nth-child(n+3) {
+  margin-top: 57px;
+  padding: 2px 38px 17px;
+  border-bottom: #0097A7 2px solid;
+  font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  color: #0097A7;
+  line-height: 1.2;
+}
+
+
+.qa dl dd {
+  margin-top: 1px;
+  padding: 15px 38px 20px;
+  border-bottom: #0097A7 2px solid;
+  font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  color: #0097A7;
+  line-height: 1.2;
+}
+
+.qa dl dd:nth-child(n+3) {
+  margin-top: 1px;
+  padding: 15px 38px 20px;
+  border-bottom: #0097A7 2px solid;
+  font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  color: #0097A7;
+  line-height: 1.2;
+}
+
 
 .qa dl dd {
   color: #000000;
@@ -646,7 +738,7 @@ img {
 .qa dl dd::before {
   content: "Q.";
   display: inline-block;
-  text-indent: -4.2rem;
+  text-indent: -40px;
   font-family: 'Noto Serif JP';
   font-size: 24px;
   color: #0097A7;
@@ -666,24 +758,21 @@ img {
   cursor: pointer;
 }
 
-.qa dl dt:hover {
-  opacity: 0.5;
-}
-
 .qa dl dt::after {
   content: "＋";
+  text-align: center;
   width: 2px;
   height: 19px;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 24px;
   color: #FFFFFF;
   position: absolute;
-  right: 3.4rem;
+  right: 1px;
   top: 50%;
   transform: translateY(-50%);
   background-color: #0097A7;
-  width: 36px;
-  height: 36px;
+  width: 33px;
+  height: 33px;
 }
 
 @media screen and (max-width: 767px) {
@@ -694,7 +783,7 @@ img {
 }
 
 .qa dl dd {
-  padding-bottom: 2.35rem;
+  padding-bottom: 10px;
   border: none;
   display: none;
 }
