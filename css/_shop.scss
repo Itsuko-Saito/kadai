@@ -1,0 +1,58 @@
+/* shopここから */
+.shop {
+  text-align: center;
+  margin-top: calc(42 / 1366 * 100vw);
+}
+
+.shop .sub-title h4 {
+  font-size: calc(48 / 1366 * 100vw);
+  color: #606060;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+}
+
+.shop .sub-title-text {
+  font-size: calc(36 / 1366 * 100vw);
+  color: #606060;
+  line-height: 1;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+  padding-top: calc(18 / 1366 * 100vw);
+}
+
+.shop-box {
+  justify-content: center;
+  column-gap: calc(30 / 1366 * 100vw);
+  height: calc(370 / 1366 * 100vw);
+  margin-top: calc(43 / 1366 * 100vw);
+}
+
+.shop-box img {
+  width: calc(461/ 1366 * 100vw);
+  height: calc(257 / 1366 * 100vw);
+}
+
+.shop-small-box-text {
+  width: calc(465 / 1366 * 100vw);
+  padding: calc(9/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(29/ 1366 * 100vw);
+  color: #000000;
+  line-height: 1.7;
+  text-align: left;
+}
+
+;
+/* shopこcこまで */
+
+/* 画像のふわっと表現 */
+.scroll_up {
+  transition: 3s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1.0;
+}
+
+/* 画像のふわっと表現 */

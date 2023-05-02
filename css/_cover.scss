@@ -1,0 +1,114 @@
+/* coverここから */
+.cover {
+  padding: 0;
+  position: relative;
+  background-color: #FFFFFF;
+  width: calc(1366 / 1366 * 100vw);
+  height: calc(768 / 1366 * 100vw);
+}
+
+.cover h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: calc(0 / 1366 * 100vw)calc(17 / 1366 * 100vw)calc(70/ 1366 * 100vw)calc(110/ 1366 * 100vw);
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+  font-size: calc(36 / 1366 * 100vw);
+  color: #000000;
+  line-height: 1.7;
+  font-weight: 400;
+  z-index: 10;
+}
+
+/* ここからテスト */
+/* https://mirailog.jp/css-only-carousel-slider */
+.css-carousel-slider {
+  width: 100%;
+  /* max-width: 800px */
+  /* サイズ設定をする場合はここ(*1) */
+  overflow: hidden;
+  position: relative;
+}
+
+.css-carousel-slider img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/* スライド設定 */
+.css-carousel-slider .slide-wrap {
+  width: 300%;
+  /* 画像の合計数*100%を設定(*2) */
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  animation: css-carousel-slider 20s infinite;
+  /* スライダーアニメーション全体の時間(*3) */
+  animation-delay: 30s;
+  /* スライダーが始まるまでの時間(*4) */
+}
+
+.css-carousel-slider .slide-wrap-main {
+  width: 100%;
+  z-index: 1;
+  animation: css-carousel-slider-main 20s infinite;
+  /* (*3)と同じ内容を設定 */
+  animation-delay: 30s;
+  /* (*4)と同じ内容を設定 */
+}
+
+.css-carousel-slider .slide {
+  width: 100%;
+}
+
+/* スライダーアニメーションの設定(*5) */
+@keyframes css-carousel-slider {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(calc(1 / 3 * -100%));
+  }
+
+  33% {
+    transform: translateX(calc(1 / 3 * -100%));
+  }
+
+  58% {
+    transform: translateX(calc(2 / 3 * -100%));
+  }
+
+  66% {
+    transform: translateX(calc(2 / 3 * -100%));
+  }
+
+  92% {
+    transform: translateX(calc(3 / 3 * -100%));
+  }
+
+  100% {
+    transform: translateX(calc(3 / 3 * -100%));
+  }
+}
+
+@keyframes css-carousel-slider-main {
+  0% {
+    transform: translateX(100%);
+  }
+
+  66% {
+    transform: translateX(100%);
+  }
+
+  92% {
+    transform: translateX(0%);
+  }
+}
+
+/* coverここまで */

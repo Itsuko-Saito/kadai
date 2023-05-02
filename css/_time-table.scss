@@ -1,0 +1,43 @@
+/* time-tableここから */
+.time-table {
+  text-align: center;
+  margin-top: calc(26 / 1366 * 100vw);
+  margin-bottom: calc(60 / 1366 * 100vw);
+}
+
+.time-table-address {
+  font-size: calc(24 / 1366 * 100vw);
+  text-align: center;
+  padding-left: calc(32 / 1366 * 100vw);
+}
+
+.biz-hour {
+  width: calc(950 / 1366 * 100vw);
+  height: calc(101 / 1366 * 100vw);
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: calc(26/ 1366 * 100vw);
+}
+
+.biz-hour td {
+  font-size: calc(24 / 1366 * 100vw);
+  padding: calc(7/ 1366 * 100vw);
+  text-align: center;
+  border-bottom: calc(1 / 1366 * 100vw);
+  solid: #606060;
+}
+
+.biz .th1 {
+  padding-left: calc(30 / 1366 * 100vw);
+}
+
+.biz-hour th {
+  font-weight: normal;
+  background-color: #0097A7;
+  width: calc(950 / 1366 * 100vw);
+  height: calc(40 / 1366 * 100vw);
+  font-size: calc(24 / 1366 * 100vw);
+  color: #FFFFFF;
+}
+
+/* time-tableここまで */

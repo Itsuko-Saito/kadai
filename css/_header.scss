@@ -1,0 +1,136 @@
+/* headerここから */
+.header {
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 10;
+  opacity: 0.702;
+
+  @media (max-width: 767px) {
+    height: calc(60 / 375 * 100vw);
+  }
+}
+
+.header-inner {
+  height: calc(80 / 1366 * 100vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    padding-left: calc(20 / 375 * 100vw);
+    padding-right: calc(20 / 375 * 100vw);
+    height: 100%;
+    position: relative;
+  }
+}
+
+.header-inner .toggle-menu-button {
+  display: none;
+}
+
+.header-logo {
+  display: block;
+  width: calc(208 / 1366 * 100vw);
+  margin-left: calc(108 / 1366 * 100vw);
+  margin-top: -0.9vw;
+
+  @media (max-width: 767px) {
+    width: calc(255 / 375 * 100vw);
+    height: calc(23 / 375 * 100vw);
+  }
+}
+
+.header .header-site-menu {
+  margin-right: calc(100 / 1366 * 100vw);
+}
+
+.site-menu ul {
+  display: flex;
+  margin: 11px 17px 8px 7px;
+
+  @media (max-width: 767px) {
+    display: block;
+    text-align: left;
+  }
+}
+
+.site-menu ul li {
+  margin-left: calc(16 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    margin-top: calc(20 / 375 * 100vw);
+  }
+}
+
+.site-menu ul li a {
+  font-family: 'Noto Sans JP';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.2;
+  border-width: 2px;
+  border-color: #606060;
+  border-style: solid;
+  background-color: #FFFFFF;
+  padding: 5px 15px;
+}
+
+.header .nav-top-button {
+  border-radius: 15px;
+  background-color: #0097A7;
+  width: calc(192 / 1366 * 100vw);
+  height: calc(36 / 1366 * 100vw);
+  color: #FEFEFE;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: calc(8 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.header .nav-top-button .far {
+  font-family: FontAwesome;
+  color: #FEFEFE;
+  margin-left: 3px;
+}
+
+@media (max-width: 767px) {
+  .header-site-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: #000;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: none;
+  }
+
+  .header-site-menu.is-show {
+    display: block;
+  }
+
+  .toggle-menu-button {
+    display: block;
+    width: 44px;
+    height: 34px;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+  }
+}
+
+
+/* headerここまで */

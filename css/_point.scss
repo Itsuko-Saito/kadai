@@ -1,0 +1,56 @@
+/* pointここから */
+.point {
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: calc(365 / 1366 * 100vw);
+  padding: calc(60 / 1366 * 100vw) 0;
+}
+
+
+.point ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: calc(136 / 1366 * 100vw);
+}
+
+
+.point ul li .circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-width: calc(3 / 1366 * 100vw);
+  border-color: #0097A7;
+  border-style: solid;
+  border-radius: 50%;
+  width: calc(160 / 1366 * 100vw);
+  height: calc(160 / 1366 * 100vw);
+  font-size: calc(24 / 1366 * 100vw);
+  font-family: 'Noto Serif JP';
+  color: #0097A7;
+}
+
+.point ul li .circle b {
+  display: block;
+  font-size: calc(48 / 1366 * 100vw);
+  color: #0097A7;
+  font-weight: 400;
+  font-family: 'Noto Sans JP';
+  padding-top: calc(7 / 1366 * 100vw);
+}
+
+.point ul li p {
+  display: block;
+  margin: calc(13 / 1366 * 100vw) calc(-7 / 1366 * 100vw) 0;
+  text-align: center;
+  font-size: calc(24 / 1366 * 100vw);
+  color: #000000;
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: 'Noto Sans JP';
+  letter-spacing: calc(0.3 / 1366 * 100vw);
+}
+
+/* pointここまで */

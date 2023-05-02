@@ -1,0 +1,165 @@
+/*  qaここから */
+.qa .sub-title h4 {
+  padding-top: calc(47/ 1366 * 100vw);
+  text-align: center;
+  font-size: calc(48/ 1366 * 100vw);
+  color: #0097A7;
+  font-family: 'Noto Serif JP';
+  font-weight: 700;
+}
+
+.qa-box {
+  width: 100%;
+  width: calc(1136 / 1366 * 100vw);
+  margin: 0 auto;
+  padding: 0 calc(93 / 1366 * 100vw);
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .qa {
+    padding-top: 2.5rem;
+    padding-bottom: 4.8rem;
+  }
+}
+
+.qa dl {
+  background: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .qa dl {
+    margin: 1.1rem 1.95rem 0;
+  }
+
+  .qa dl:first-of-type {
+    margin-top: 1.5rem;
+  }
+}
+
+.qa dl dt {
+  margin-top: calc(57/ 1366 * 100vw);
+  padding: calc(2 / 1366 * 100vw)calc(38 / 1366 * 100vw)calc(17 / 1366 * 100vw);
+  border-bottom: #0097A7 calc(2 / 1366 * 100vw) solid;
+  font-weight: 500;
+  position: relative;
+  font-size: calc(18 / 1366 * 100vw);
+  color: #0097A7;
+}
+
+.qa dl dt:nth-child(n+3) {
+  margin-top: calc(57/ 1366 * 100vw);
+  padding: calc(2 / 1366 * 100vw)calc(38 / 1366 * 100vw)calc(17 / 1366 * 100vw);
+  border-bottom: #0097A7 calc(2 / 1366 * 100vw) solid;
+  font-weight: 500;
+  position: relative;
+  font-size: calc(18 / 1366 * 100vw);
+  color: #0097A7;
+}
+
+
+.qa dl dd {
+  margin-top: calc(1 / 1366 * 100vw);
+  padding: calc(15 / 1366 * 100vw)calc(38 / 1366 * 100vw)calc(20 / 1366 * 100vw);
+  border-bottom: #0097A7 calc(2 / 1366 * 100vw) solid;
+  font-weight: 500;
+  position: relative;
+  font-size: calc(18 / 1366 * 100vw);
+  color: #0097A7;
+}
+
+
+.qa dl dd:nth-child(n+3) {
+  margin-top: calc(1 / 1366 * 100vw);
+  padding: calc(15 / 1366 * 100vw)calc(38 / 1366 * 100vw)calc(20 / 1366 * 100vw);
+  border-bottom: #0097A7 calc(2 / 1366 * 100vw) solid;
+  font-weight: 500;
+  position: relative;
+  font-size: calc(18 / 1366 * 100vw);
+  color: #0097A7;
+}
+
+
+.qa dl dd {
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+
+  .qa dl dt,
+  .qa dl dd {
+    padding: .8rem 3.1rem .6rem 3.1rem;
+    font-size: 1.4rem;
+    line-height: calc(16 / 14);
+    border-bottom: #0097A7 2px solid;
+  }
+}
+
+.qa dl dt::before,
+.qa dl dd::before {
+  content: "Q.";
+  display: inline-block;
+  text-indent: calc(-40 / 1366 * 100vw);
+  font-family: 'Noto Serif JP';
+  font-size: calc(24 / 1366 * 100vw);
+  color: #0097A7;
+  font-weight: bold;}
+
+  @media screen and (max-width: 767px) {
+
+    .qa dl dt::before,
+    .qa dl dd::before {
+      text-indent: -2.5rem;
+    }
+  }
+
+  .qa dl dt {
+    cursor: pointer;
+  }
+
+  .qa dl dt::after {
+    content: "＋";
+    text-align: center;
+    width: calc(2/ 1366 * 100vw);
+    height: calc(19 / 1366 * 100vw);
+    font-weight: 900;
+    font-size: calc(24 / 1366 * 100vw);
+    color: #FFFFFF;
+    position: absolute;
+    right: calc(1 / 1366 * 100vw);
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #0097A7;
+    width: calc(33/ 1366 * 100vw);
+    height: calc(33/ 1366 * 100vw);
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .qa dl dt::after {
+      right: 1rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  .qa dl dd {
+    padding-bottom: calc(10 / 1366 * 100vw);
+    border: none;
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .qa dl dd {
+      padding-bottom: .7rem;
+    }
+  }
+
+  .qa dl dd::before {
+    content: "A.";
+  }
+
+  .qa dl.open dt::after {
+    content: 'ー';
+  }
+
+  /* qaここまで */

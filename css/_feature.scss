@@ -1,0 +1,102 @@
+/* featureここから */
+.feature h3 {
+  text-align: center;
+  font-size: calc(48 / 1366 * 100vw);
+  color: #0097A7;
+  line-height: 1.2;
+  font-family: 'Noto Serif JP';
+  font-weight: 700;
+  padding-top: calc(50 / 1366 * 100vw);
+}
+
+/* counselingここから */
+.counseling {
+  height: calc(470 / 1366 * 100vw);
+  text-align: center;
+  margin-top: calc(42 / 1366 * 100vw);
+}
+
+.counseling .sub-title h4 {
+  font-size: calc(48 / 1366 * 100vw);
+  color: #606060;
+  line-height: 1.2;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+}
+
+.counseling .sub-title .sub-title-text {
+  font-size: calc(36 / 1366 * 100vw);
+  color: #606060;
+  line-height: 1;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+  margin-top: calc(20 / 1366 * 100vw);
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(30 / 1366 * 100vw);
+}
+
+.table-box {
+  border-collapse: separate;
+  border-spacing: calc(10 / 1366 * 100vw);
+}
+
+.table-head {
+  border: none;
+  border-radius: calc(10 / 1366 * 100vw) calc(10 / 1366 * 100vw) 0 0;
+  background-color: #0097A7;
+  width: calc(950 / 1366 * 100vw);
+  height: calc(56 / 1366 * 100vw);
+  font-size: calc(32 / 1366 * 100vw);
+  color: #FFFFFF;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.row-head {
+  border: none;
+  background-color: #DDDDDD;
+  width: calc(274 / 1366 * 100vw);
+  height: calc(72 / 1366 * 100vw);
+  text-align: center;
+  font-size: calc(24 / 1366 * 100vw);
+  color: #000000;
+  line-height: 1.2;
+}
+
+.row-head-bottom {
+  border: none;
+  background-color: #DDDDDD;
+  width:
+    calc(274 / 1366 * 100vw);
+  height: calc(72 / 1366 * 100vw);
+  border-radius: 0 0 0 calc(10 / 1366 * 100vw);
+  text-align: center;
+  font-size: calc(24 / 1366 * 100vw);
+  color: #000000;
+}
+
+.table-date {
+  border: none;
+  background-color: #EEEEEE;
+  width: calc(666 / 1366 * 100vw);
+  height: calc(72 / 1366 * 100vw);
+  text-align: left;
+  padding-left: calc(29 / 1366 * 100vw);
+  line-height: 1.8;
+}
+
+.table-date-bottom {
+  border: none;
+  background-color: #EEEEEE;
+  width: calc(666 / 1366 * 100vw);
+  height: calc(72 / 1366 * 100vw);
+  text-align: left;
+  padding-left: calc(29 / 1366 * 100vw);
+  line-height: 1.8;
+}
+
+/* counselingここまで */

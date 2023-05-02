@@ -1,0 +1,16 @@
+/* footerここから */
+.footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: calc(447 / 1366 * 100vw );
+  height: calc(40 / 1366 * 100vw );
+}
+
+.footer-copyright {
+  font-size: calc(12 / 1366 * 100vw );
+}

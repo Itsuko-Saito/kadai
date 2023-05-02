@@ -1,0 +1,54 @@
+/* contact-2ndここから */
+.contact-2nd {
+  background-color: #B5E9EE;
+  height: calc(437 / 1366 * 100vw);
+}
+
+.contact-2nd h3 {
+  text-align: center;
+  font-size: calc(48/ 1366 * 100vw);
+  color: #0097A7;
+  font-family: 'Noto Serif JP';
+  font-weight: 700;
+}
+
+.contact-2nd .text {
+  font-size: calc(24 / 1366 * 100vw);
+  color: #000000;
+}
+
+.contact-2nd .far {
+  text-shadow: 0 calc(3 / 1366 * 100vw) 0#2020204C;
+  padding-right: calc(23 / 1366 * 100vw);
+  padding-bottom: calc(23 / 1366 * 100vw);
+}
+
+.contact-2nd .check {
+  margin-left: calc(470 / 1366 * 100vw);
+  margin-top: calc(54 / 1366 * 100vw);
+  font-weight: 300;
+  font-size: calc(24 / 1366 * 100vw);
+  color: #000000;
+}
+
+.contact-2nd .cv-button {
+  display: block;
+  text-align: center;
+  margin: calc(33/ 1366 * 100vw) auto 0;
+  background-color: #0097A7;
+  box-shadow: calc(10 / 1366 * 100vw)calc(10 / 1366 * 100vw) #2020204F;
+  border-radius: calc(15 / 1366 * 100vw);
+  width: calc(558 / 1366 * 100vw);
+  height: calc(78 / 1366 * 100vw);
+  font-size: calc(32 / 1366 * 100vw);
+  color: #FEFEFE;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: calc(17 / 1366 * 100vw) 0 0 calc(50 / 1366 * 100vw);
+}
+
+.contact-2nd .cv-button .far {
+  color: #FEFEFE;
+}
+
+/* contact-2ndここまで */

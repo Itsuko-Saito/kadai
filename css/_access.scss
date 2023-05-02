@@ -1,0 +1,31 @@
+/* accessここから */
+.access {
+  text-align: center;
+  margin-top: calc(25 / 1366 * 100vw);
+}
+
+.access .sub-title h4 {
+  font-size: calc(48 / 1366 * 100vw);
+  color: #606060;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+}
+
+.access .sub-title-text {
+  font-size: calc(36 / 1366 * 100vw);
+  color: #606060;
+  line-height: 1;
+  font-family: 'Noto Serif JP';
+  font-weight: 400;
+  padding-top: calc(20 / 1366 * 100vw);
+}
+
+.access-map {
+  margin-top: calc(45 / 1366 * 100vw);
+}
+
+.access-address {
+  padding-top: calc(18 / 1366 * 100vw);
+}
+
+/* accessここまで */
