@@ -26,7 +26,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -52,39 +52,61 @@ h6 {
 }
 
 /* headerここから */
+/* TODO:リンク先設定すること */
+/* ヘッダー固定に戻すこと */
 .header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   margin: 0 auto;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: #ffffff;
-  z-index: 10;
   opacity: 0.702;
 }
 @media (max-width: 767px) {
   .header {
     height: 16vw;
+    background-color: #ffffff;
+    opacity: 1;
+  }
+}
+
+.header-site-menu {
+  margin-left: 32vw;
+}
+@media (max-width: 767px) {
+  .header-site-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: #000;
+    padding: 15px 0 15px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 2.2;
+    margin-left: 0;
   }
 }
 
 .header-inner {
-  height: 5.8565153734vw;
+  height: 80px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 767px) {
   .header-inner {
-    padding-left: 5.3333333333vw;
-    padding-right: 5.3333333333vw;
     height: 100%;
     position: relative;
   }
 }
 
 .header-inner .toggle-menu-button {
-  display: none;
+  color: #606060;
+  font-size: 8.5vw;
+  margin-left: 16.6vw;
 }
 
 .header-logo {
@@ -97,16 +119,12 @@ h6 {
   .header-logo {
     width: 68vw;
     height: 6.1333333333vw;
+    margin: 0;
   }
-}
-
-.header .header-site-menu {
-  margin-right: 7.3206442167vw;
 }
 
 .site-menu ul {
   display: flex;
-  margin: 11px 17px 8px 7px;
 }
 @media (max-width: 767px) {
   .site-menu ul {
@@ -115,38 +133,38 @@ h6 {
   }
 }
 
-.site-menu ul li {
-  margin-left: 1.1713030747vw;
-}
-@media (max-width: 767px) {
-  .site-menu ul li {
-    margin-top: 5.3333333333vw;
-  }
-}
-
+/* TODO:テキストの色＃０００に変更　　画面縮小でレイアウト崩れ発生する */
 .site-menu ul li a {
-  font-family: "Noto Sans JP";
   font-weight: 400;
-  font-size: 16px;
-  color: #000000;
+  font-size: 1.1713030747vw;
+  color: #606060;
   line-height: 1.2;
   border-width: 2px;
-  border-color: #606060;
   border-style: solid;
   background-color: #FFFFFF;
   padding: 5px 15px;
+  margin-right: 8px;
+}
+@media (max-width: 767px) {
+  .site-menu ul li a {
+    font-size: 4.2666666667vw;
+    color: #000000;
+    line-height: 1.5;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
 
 .header .nav-top-button {
   border-radius: 15px;
   background-color: #0097A7;
+  border-color: none;
   width: 14.055636896vw;
-  height: 2.635431918vw;
   color: #FEFEFE;
   font-weight: 700;
-  line-height: 1.2;
   text-align: center;
-  padding-top: 0.5856515373vw;
+  padding-top: 9px;
+  font-size: 1.2vw;
 }
 @media (max-width: 767px) {
   .header .nav-top-button {
@@ -161,31 +179,11 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  .header-site-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    color: #000;
-    background-color: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    display: none;
-  }
   .header-site-menu.is-show {
     display: block;
   }
   .toggle-menu-button {
     display: block;
-    width: 44px;
-    height: 34px;
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    outline: none;
   }
 }
 /* headerここまで */
@@ -354,7 +352,7 @@ h6 {
 }
 
 .contact .far {
-  text-shadow: 0vw 0.2196193265vw 0vw rgba(32, 32, 32, 0.2980392157);
+  text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.8301610542vw;
 }
@@ -362,7 +360,6 @@ h6 {
 .contact .check {
   margin-left: 30.9663250366vw;
   margin-top: 3.953147877vw;
-  font-family: "Noto Sans JP";
   font-weight: 300;
   font-size: 1.756954612vw;
   color: #000000;
@@ -385,7 +382,9 @@ h6 {
 }
 
 .contact .cv-button .far {
+  font-family: FontAwesome;
   color: #FEFEFE;
+  margin-left: 5px;
 }
 
 /* contactここまで */
@@ -541,6 +540,7 @@ h6 {
   text-align: left;
   padding-left: 2.1229868228vw;
   line-height: 1.8;
+  border-radius: 0 0 0.7320644217vw 0;
 }
 
 /* counselingここまで */
@@ -582,8 +582,9 @@ h6 {
   font-size: 2.635431918vw;
   color: #FFFFFF;
   font-weight: 700;
-  text-align: center;
-  padding-top: 0.0292825769vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .price-box-title-under {
@@ -687,7 +688,9 @@ h6 {
 }
 
 .access-map {
+  margin: 0 auto;
   margin-top: 3.2942898975vw;
+  width: 84.1874084919vw;
 }
 
 .access-address {
@@ -720,8 +723,7 @@ h6 {
   font-size: 1.756954612vw;
   padding: 0.5124450952vw;
   text-align: center;
-  border-bottom: 0.0732064422vw;
-  solid: #606060;
+  border-bottom: 2px solid #606060;
 }
 
 .biz .th1 {
@@ -734,11 +736,10 @@ h6 {
   width: 69.5461200586vw;
   height: 2.9282576867vw;
   font-size: 1.756954612vw;
-  color: #FFFFFF;
 }
 
 /* time-tableここまで */
-/* contact-2ndここから */
+/*contact-2ndここから */
 .contact-2nd {
   background-color: #B5E9EE;
   height: 31.9912152269vw;
@@ -758,9 +759,13 @@ h6 {
 }
 
 .contact-2nd .far {
-  text-shadow: 0 0.2196193265vw 0 rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.6837481698vw;
+}
+.contact-2nd .far .contact .far {
+  text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
+  padding-right: 1.6837481698vw;
+  padding-bottom: 1.8301610542vw;
 }
 
 .contact-2nd .check {
@@ -787,8 +792,10 @@ h6 {
   padding: 1.2445095168vw 0 0 3.6603221083vw;
 }
 
-.contact-2nd .cv-button .far {
+.contact .cv-button .far {
+  font-family: FontAwesome;
   color: #FEFEFE;
+  margin-left: 5px;
 }
 
 /* contact-2ndここまで */
@@ -820,6 +827,7 @@ h6 {
   background: #fff;
 }
 
+/* TODOアコーディオン閉じた状態の間隔が異なる */
 @media screen and (max-width: 767px) {
   .qa dl {
     margin: 1.1rem 1.95rem 0;
@@ -838,16 +846,6 @@ h6 {
   color: #0097A7;
 }
 
-.qa dl dt:nth-child(n+3) {
-  margin-top: 4.1727672035vw;
-  padding: 0.1464128843vw 2.7818448023vw 1.2445095168vw;
-  border-bottom: #0097A7 0.1464128843vw solid;
-  font-weight: 500;
-  position: relative;
-  font-size: 1.317715959vw;
-  color: #0097A7;
-}
-
 .qa dl dd {
   margin-top: 0.0732064422vw;
   padding: 1.0980966325vw 2.7818448023vw 1.4641288433vw;
@@ -856,16 +854,7 @@ h6 {
   position: relative;
   font-size: 1.317715959vw;
   color: #0097A7;
-}
-
-.qa dl dd:nth-child(n+3) {
-  margin-top: 0.0732064422vw;
-  padding: 1.0980966325vw 2.7818448023vw 1.4641288433vw;
-  border-bottom: #0097A7 0.1464128843vw solid;
-  font-weight: 500;
-  position: relative;
-  font-size: 1.317715959vw;
-  color: #0097A7;
+  width: 90%;
 }
 
 .qa dl dd {
@@ -905,8 +894,6 @@ h6 {
 .qa dl dt::after {
   content: "＋";
   text-align: center;
-  width: 0.1464128843vw;
-  height: 1.3909224012vw;
   font-weight: 900;
   font-size: 1.756954612vw;
   color: #FFFFFF;
@@ -945,66 +932,66 @@ h6 {
 }
 
 /* qaここまで */
-/* contact-3rdここから */
+/*contact-3ndここから */
 .contact-2nd {
   background-color: #B5E9EE;
-  max-width: 1366px;
-  height: 437px;
+  height: 31.9912152269vw;
 }
 
 .contact-2nd h3 {
   text-align: center;
-  font-size: 48px;
+  font-size: 3.513909224vw;
   color: #0097A7;
-  line-height: 1.2;
   font-family: "Noto Serif JP";
   font-weight: 700;
 }
 
 .contact-2nd .text {
-  font-size: 24.03px;
+  font-size: 1.756954612vw;
   color: #000000;
-  line-height: 1.2;
 }
 
 .contact-2nd .far {
-  text-shadow: 0px 3px 0px rgba(32, 32, 32, 0.2980392157);
-  padding-right: 23px;
-  padding-bottom: 25px;
+  padding-right: 1.6837481698vw;
+  padding-bottom: 1.6837481698vw;
+}
+.contact-2nd .far .contact .far {
+  text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
+  padding-right: 1.6837481698vw;
+  padding-bottom: 1.8301610542vw;
 }
 
 .contact-2nd .check {
-  margin-left: 470px;
-  margin-top: 54px;
-  font-family: "Noto Sans JP";
+  margin-left: 34.4070278184vw;
+  margin-top: 3.953147877vw;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 1.756954612vw;
   color: #000000;
-  line-height: 1.2;
 }
 
 .contact-2nd .cv-button {
   display: block;
   text-align: center;
-  margin: 33px auto 0;
+  margin: 2.4158125915vw auto 0;
   background-color: #0097A7;
-  box-shadow: 10px 10px rgba(32, 32, 32, 0.3098039216);
-  border-radius: 15px;
-  font-family: "Noto Sans JP";
-  width: 558px;
-  height: 78px;
-  font-size: 32px;
+  box-shadow: 0.7320644217vw 0.7320644217vw rgba(32, 32, 32, 0.3098039216);
+  border-radius: 1.0980966325vw;
+  width: 40.8491947291vw;
+  height: 5.710102489vw;
+  font-size: 2.3426061493vw;
   color: #FEFEFE;
   font-weight: 700;
   line-height: 1.2;
-  padding: 17px 0 0 50px;
+  padding: 1.2445095168vw 0 0 3.6603221083vw;
 }
 
-.contact-2nd .cv-button .far {
+.contact .cv-button .far {
+  font-family: FontAwesome;
   color: #FEFEFE;
+  margin-left: 5px;
 }
 
-/* contact-3rdここまで */
+/* contact-3ndここまで */
 /* footerここから */
 .footer {
   margin: 0 auto;

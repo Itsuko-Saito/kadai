@@ -11,6 +11,8 @@ window.addEventListener('load', function () {
   });
 });
 
+
+
 $(window).scroll(function () {
   var scrollAnimationElm = document.querySelectorAll('.scroll_up');
   var scrollAnimationFunc = function () {

@@ -35,8 +35,9 @@
   font-size: calc(36 / 1366 * 100vw);
   color: #FFFFFF;
   font-weight: 700;
-  text-align: center;
-  padding-top: calc(.4 / 1366 * 100vw);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .price-box-title-under {

@@ -23,8 +23,7 @@
   font-size: calc(24 / 1366 * 100vw);
   padding: calc(7/ 1366 * 100vw);
   text-align: center;
-  border-bottom: calc(1 / 1366 * 100vw);
-  solid: #606060;
+  border-bottom: 2px solid #606060;
 }
 
 .biz .th1 {
@@ -37,7 +36,6 @@
   width: calc(950 / 1366 * 100vw);
   height: calc(40 / 1366 * 100vw);
   font-size: calc(24 / 1366 * 100vw);
-  color: #FFFFFF;
 }
 
 /* time-tableここまで */

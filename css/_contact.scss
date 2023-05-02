@@ -21,7 +21,7 @@
 }
 
 .contact .far {
-  text-shadow: calc(0 / 1366 * 100vw)calc(3 / 1366 * 100vw)calc(0 / 1366 * 100vw) #2020204C;
+  text-shadow: calc(2/ 1366 * 100vw)calc(2 / 1366 * 100vw)calc(2 / 1366 * 100vw) #2020204C;
   padding-right: calc(23 / 1366 * 100vw);
   padding-bottom: calc(25/ 1366 * 100vw);
 }
@@ -29,7 +29,6 @@
 .contact .check {
   margin-left: calc(423 / 1366 * 100vw);
   margin-top: calc(54 / 1366 * 100vw);
-  font-family: 'Noto Sans JP';
   font-weight: 300;
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
@@ -52,7 +51,10 @@
 }
 
 .contact .cv-button .far {
+  font-family: FontAwesome;
   color: #FEFEFE;
+  margin-left: 5px;
 }
+
 
 /* contactここまで */
