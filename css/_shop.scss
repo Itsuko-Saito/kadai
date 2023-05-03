@@ -2,13 +2,24 @@
 .shop {
   text-align: center;
   margin-top: calc(42 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    margin-top: -3vw;
+    height: calc(800 / 375 * 100vw);
+    ;
+  }
 }
+
 
 .shop .sub-title h4 {
   font-size: calc(48 / 1366 * 100vw);
   color: #606060;
   font-family: 'Noto Serif JP';
   font-weight: 400;
+
+  @media (max-width: 767px) {
+    font-size: calc(48 / 375 * 100vw);
+  }
 }
 
 .shop .sub-title-text {
@@ -18,6 +29,13 @@
   font-family: 'Noto Serif JP';
   font-weight: 400;
   padding-top: calc(18 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: calc(32 / 375 * 100vw);
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    line-height: 1.2;
+  }
 }
 
 .shop-box {
@@ -25,23 +43,39 @@
   column-gap: calc(30 / 1366 * 100vw);
   height: calc(370 / 1366 * 100vw);
   margin-top: calc(43 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+
+    display: block;
+  }
 }
 
 .shop-box img {
   width: calc(461/ 1366 * 100vw);
   height: calc(257 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    width: calc(347 / 375 * 100vw);
+    height: 53vw
+  }
 }
 
+/* TODO 画像のテキストずれ */
 .shop-small-box-text {
   width: calc(465 / 1366 * 100vw);
   padding: calc(9/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(29/ 1366 * 100vw);
   color: #000000;
   line-height: 1.7;
   text-align: left;
+
+  @media (max-width: 767px) {
+    font-size: 3.2vw;
+    padding: 0;
+    width: 84vw;
+  }
 }
 
-;
-/* shopこcこまで */
+/* shopここまで */
 
 /* 画像のふわっと表現 */
 .scroll_up {

@@ -8,6 +8,8 @@
   @media (max-width: 767px) {
     height: 606px;
     padding: 3.3vw;
+    margin-top: 86vw;
+    height: calc(604 / 375 * 100vw);
   }
 }
 

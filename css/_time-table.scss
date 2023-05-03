@@ -3,12 +3,22 @@
   text-align: center;
   margin-top: calc(26 / 1366 * 100vw);
   margin-bottom: calc(60 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    height: calc(220/ 375 * 100vw);
+    margin: 0 auto;
+  }
 }
 
 .time-table-address {
   font-size: calc(24 / 1366 * 100vw);
   text-align: center;
   padding-left: calc(32 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: calc(18 / 375 * 100vw);
+    line-height: 1.5;
+  }
 }
 
 .biz-hour {
@@ -17,6 +27,12 @@
   margin: 0 auto;
   border-collapse: collapse;
   margin-top: calc(26/ 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    width: calc(345 / 375 * 100vw);
+    height: 18vw;
+    margin-top: 7vw;
+  }
 }
 
 .biz-hour td {
@@ -24,6 +40,10 @@
   padding: calc(7/ 1366 * 100vw);
   text-align: center;
   border-bottom: 2px solid #606060;
+
+  @media (max-width: 767px) {
+    font-size: calc(11.94 / 375 * 100vw);
+  }
 }
 
 .biz .th1 {
@@ -36,6 +56,13 @@
   width: calc(950 / 1366 * 100vw);
   height: calc(40 / 1366 * 100vw);
   font-size: calc(24 / 1366 * 100vw);
+  color: #FFFFFF;
+
+  @media (max-width: 767px) {
+    font-size: calc(11.94 / 375 * 100vw);
+    height: 6vw;
+  }
 }
+
 
 /* time-tableここまで */

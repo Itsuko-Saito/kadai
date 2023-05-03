@@ -3,6 +3,10 @@
   padding: 0;
   position: relative;
   margin-bottom: 186vw;
+
+  @media (max-width: 767px) {
+    margin-bottom: 20vw;
+  }
 }
 
 .cover h2 {
@@ -18,6 +22,11 @@
   line-height: 1.7;
   font-weight: 400;
   z-index: 10;
+
+  @media (max-width: 767px) {
+    font-size: calc(28 / 375 * 100vw);
+    text-align: center;
+  }
 }
 
 /* ここからテスト */

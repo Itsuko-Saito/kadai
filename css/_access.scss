@@ -2,6 +2,10 @@
 .access {
   text-align: center;
   margin-top: calc(25 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    height: calc(520 / 375 * 100vw);
+  }
 }
 
 .access .sub-title h4 {
@@ -9,6 +13,11 @@
   color: #606060;
   font-family: 'Noto Serif JP';
   font-weight: 400;
+
+  @media (max-width: 767px) {
+    font-size: calc(48 / 375 * 100vw);
+    line-height: 1.2;
+  }
 }
 
 .access .sub-title-text {
@@ -18,18 +27,39 @@
   font-family: 'Noto Serif JP';
   font-weight: 400;
   padding-top: calc(20 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: 8.5vw;
+    line-height: 1.5;
+  }
 }
 
 .access-map {
   margin: 0 auto;
   margin-top: calc(45 / 1366 * 100vw);
   width: calc(1150 / 1366 * 100vw);
-  overflow: hidden
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    width: calc(352 / 375 * 100vw);
+    height: calc(251 / 375 * 100vw);
+  }
 }
 
+/* TODO JR東京駅のレイアウトがずれている */
 .access-address {
   padding-top: calc(18 / 1366 * 100vw);
   max-width: 100%;
   object-fit: cover;
+
+  @media (max-width: 767px) {
+    font-size: calc(12 / 375 * 100vw);
+    text-align: center;
+    font-size: 3vw;
+    text-align: center;
+    padding: 10vw 12vw 4vw 11vw;
+    line-height: 1.6;
+  }
 }
+
 /* accessここまで */

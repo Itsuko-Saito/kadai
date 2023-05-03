@@ -13,7 +13,8 @@
     color: #0097A7;
     font-weight: bold;
     line-height: 1.2;
-    padding-top: 13vw;
+    padding-top: 15vw;
+    height: calc(120 / 375 * 100vw);
   }
 }
 
@@ -22,6 +23,10 @@
   height: calc(470 / 1366 * 100vw);
   text-align: center;
   margin-top: calc(42 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    height: calc(630 / 375 * 100vw);
+  }
 }
 
 .counseling .sub-title h4 {
@@ -33,7 +38,7 @@
 
   @media (max-width: 767px) {
     font-size: calc(47.98 / 375 * 100vw);
-    padding-top: 10vw;
+    padding-top: 2vw;
   }
 }
 
@@ -47,7 +52,7 @@
 
   @media (max-width: 767px) {
     font-size: calc(31.99 / 375 * 100vw);
-    margin-top: 5vw;
+    margin-top: 6vw;
     line-height: 1.2;
   }
 }
@@ -63,10 +68,11 @@
   border-spacing: calc(10 / 1366 * 100vw);
 
   @media (max-width: 767px) {
-    width: calc(346 / 375 * 100vw);
-    height: calc(51 / 375 * 100vw);
+    margin-top: 5vw;
+    border-spacing: 2.5vw
   }
 }
+
 
 .table-head {
   border: none;
@@ -78,6 +84,14 @@
   color: #FFFFFF;
   line-height: 1.2;
   font-weight: 400;
+
+  @media (max-width: 767px) {
+    width: calc(346 / 375 * 100vw);
+    height: 8vw;
+    border-radius: 5vw 5vw 0 0;
+    font-size: calc(18 / 375 * 100vw);
+    padding-bottom: 4vw;
+  }
 }
 
 .row-head {
@@ -89,6 +103,11 @@
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
   line-height: 1.2;
+
+  @media (max-width: 767px) {
+    height: calc(107 / 375 * 100vw);
+    font-size: calc(12 / 375 * 100vw);
+  }
 }
 
 .row-head-bottom {
@@ -101,6 +120,12 @@
   text-align: center;
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
+
+  @media (max-width: 767px) {
+    width: calc(101 / 375 * 100vw);
+    border-radius: 0 0 0 5vw;
+    font-size: calc(12 / 375 * 100vw);
+  }
 }
 
 .table-date {
@@ -111,7 +136,17 @@
   text-align: left;
   padding-left: calc(29 / 1366 * 100vw);
   line-height: 1.8;
+  width: calc(235 / 375 * 100vw);
+  height: calc(106 / 375 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: 3.2vw;
+    line-height: 1.5;
+    padding: 7.1vw 7vw 4.4vw 9vw;
+  }
 }
+
+/* TODO テーブルのカンプずれ大きい */
 
 .table-date-bottom {
   border: none;
@@ -122,6 +157,14 @@
   padding-left: calc(29 / 1366 * 100vw);
   line-height: 1.8;
   border-radius: 0 0 calc(10 / 1366 * 100vw) 0;
+
+  @media (max-width: 767px) {
+    width: calc(101 / 375 * 100vw);
+    font-size: calc(12 / 375 * 100vw);
+    padding: 6vw;
+    border-radius: 0 0 5vw 0;
+    padding: 3vw 7vw 2vw 9vw;
+  }
 }
 
 /* counselingここまで */
