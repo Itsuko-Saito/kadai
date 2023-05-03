@@ -37,6 +37,9 @@
   /* サイズ設定をする場合はここ(*1) */
   overflow: hidden;
   position: relative;
+  // @media (max-width: 767px) {
+  //   display: none;
+  // }
 }
 
 .css-carousel-slider img {
@@ -58,6 +61,9 @@
   /* スライダーアニメーション全体の時間(*3) */
   animation-delay: 30s;
   /* スライダーが始まるまでの時間(*4) */
+  // @media (max-width: 767px) {
+  //   display: none;
+  // }
 }
 
 .css-carousel-slider .slide-wrap-main {
@@ -67,10 +73,28 @@
   /* (*3)と同じ内容を設定 */
   animation-delay: 30s;
   /* (*4)と同じ内容を設定 */
+  // @media (max-width: 767px) {
+  //   display: none;
+  // }
 }
 
 .css-carousel-slider .slide {
   width: 100%;
+  // @media (max-width: 767px) {
+  //   display: none;
+  // }
+}
+
+@media (min-width: 767px) {
+  .display-pc {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .display-sp {
+    display: none;
+  }
 }
 
 /* スライダーアニメーションの設定(*5) */

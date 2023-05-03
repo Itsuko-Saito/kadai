@@ -78,6 +78,7 @@ h6 {
   background-color: #ffffff;
   opacity: 0.702;
 }
+
 @media (max-width: 767px) {
   .header {
     height: 16vw;
@@ -85,10 +86,10 @@ h6 {
     opacity: 1;
   }
 }
-
 .header-site-menu {
   margin-left: 32vw;
 }
+
 @media (max-width: 767px) {
   .header-site-menu {
     position: absolute;
@@ -100,32 +101,53 @@ h6 {
     background-color: rgba(255, 255, 255, 0.7);
     line-height: 2.2;
     margin-left: 0;
+    display: none;
   }
 }
-
 .header-inner {
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 @media (max-width: 767px) {
   .header-inner {
     height: 100%;
     position: relative;
   }
 }
-
-.header-inner .toggle-menu-button {
+@media (min-width: 767px) {
+  #cover-caption-sp {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #cover-caption-pc {
+    display: none;
+  }
+}
+/* .header-inner .toggle-menu-button {
   color: #606060;
   font-size: 8.5vw;
   margin-left: 16.6vw;
+} */
+#toggle-menu-button {
+  color: #606060;
+  font-size: 8.5vw;
+  margin-left: 16.6vw;
+}
+@media (min-width: 768px) {
+  #toggle-menu-button {
+    display: none;
+  }
 }
 
 .header-logo {
   display: block;
   margin-top: -0.9vw;
 }
+
 @media (max-width: 767px) {
   .header-logo {
     width: 68vw;
@@ -133,17 +155,16 @@ h6 {
     margin: 0;
   }
 }
-
 .site-menu ul {
   display: flex;
 }
+
 @media (max-width: 767px) {
   .site-menu ul {
     display: block;
     text-align: left;
   }
 }
-
 /* TODO:テキストの色＃０００に変更　　画面縮小でレイアウト崩れ発生する */
 .site-menu ul li a {
   font-weight: 400;
@@ -156,6 +177,7 @@ h6 {
   padding: 5px 15px;
   margin-right: 8px;
 }
+
 @media (max-width: 767px) {
   .site-menu ul li a {
     font-size: 4.2666666667vw;
@@ -165,7 +187,6 @@ h6 {
     background-color: rgba(255, 255, 255, 0);
   }
 }
-
 .header .nav-top-button {
   border-radius: 15px;
   background-color: #0097A7;
@@ -176,12 +197,12 @@ h6 {
   padding-top: 9px;
   font-size: 1.2vw;
 }
+
 @media (max-width: 767px) {
   .header .nav-top-button {
     display: none;
   }
 }
-
 .header .nav-top-button .far {
   font-family: FontAwesome;
   color: #FEFEFE;
@@ -189,10 +210,10 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  .header-site-menu.is-show {
+  .is-show {
     display: block;
   }
-  .toggle-menu-button {
+  #toggle-menu-button {
     display: block;
   }
 }

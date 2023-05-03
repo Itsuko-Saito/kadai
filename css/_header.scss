@@ -49,10 +49,21 @@
 }
 
 
-.header-inner .toggle-menu-button {
+// .header-inner .toggle-menu-button {
+//   color: #606060;
+//   font-size: 8.5vw;
+//   margin-left: 16.6vw;
+// }
+
+#toggle-menu-button {
   color: #606060;
   font-size: 8.5vw;
   margin-left: 16.6vw;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+    
 }
 
 .header-logo {
@@ -123,7 +134,7 @@
     display: block;
   }
 
-  .toggle-menu-button {
+  #toggle-menu-button {
     display: block;
   }
 }
