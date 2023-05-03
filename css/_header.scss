@@ -6,7 +6,6 @@
   z-index: 1;
   width: 100%;
   margin: 0 auto;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -41,12 +40,14 @@
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   @media (max-width: 767px) {
     height: 100%;
     position: relative;
   }
 }
+
 
 .header-inner .toggle-menu-button {
   color: #606060;
@@ -121,14 +122,14 @@
 }
 
 @media (max-width: 767px) {
-    .header-site-menu.is-show {
-      display: block;
-    }
-
-    .toggle-menu-button {
-      display: block;
-    }
+  .header-site-menu.is-show {
+    display: block;
   }
 
+  .toggle-menu-button {
+    display: block;
+  }
+}
 
-  /* headerここまで */
+
+/* headerここまで */

@@ -24,10 +24,12 @@
   margin: 0 auto;
   margin-top: calc(45 / 1366 * 100vw);
   width: calc(1150 / 1366 * 100vw);
+  overflow: hidden
 }
 
 .access-address {
   padding-top: calc(18 / 1366 * 100vw);
+  max-width: 100%;
+  object-fit: cover;
 }
-
 /* accessここまで */
