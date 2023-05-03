@@ -127,23 +127,18 @@ h6 {
     display: none;
   }
 }
-/* .header-inner .toggle-menu-button {
-  color: #606060;
-  font-size: 8.5vw;
-  margin-left: 16.6vw;
-} */
 #toggle-menu-button {
   color: #606060;
   font-size: 8.5vw;
   margin-left: 16.6vw;
 }
+
 @media (min-width: 768px) {
   #toggle-menu-button {
     display: none;
   }
 }
-
-.header-logo {
+​.header-logo {
   display: block;
   margin-top: -0.9vw;
 }
@@ -299,6 +294,16 @@ h6 {
   width: 100%;
 }
 
+@media (min-width: 767px) {
+  .display-pc {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .display-sp {
+    display: none;
+  }
+}
 /* スライダーアニメーションの設定(*5) */
 @-webkit-keyframes css-carousel-slider {
   0% {
