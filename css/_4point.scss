@@ -4,16 +4,24 @@
   box-sizing: border-box;
   height: calc(365 / 1366 * 100vw);
   padding: calc(60 / 1366 * 100vw) 0;
-}
 
+  @media (max-width: 767px) {
+    height: 606px;
+    padding: 3.3vw;
+  }
+}
 
 .point ul {
   display: flex;
   justify-content: center;
   position: relative;
   gap: calc(136 / 1366 * 100vw);
-}
 
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    gap: 8vw 10vw;
+  }
+}
 
 .point ul li .circle {
   display: flex;
@@ -30,15 +38,30 @@
   font-size: calc(24 / 1366 * 100vw);
   font-family: 'Noto Serif JP';
   color: #0097A7;
+
+  @media (max-width: 767px) {
+    border-width: calc(3 / 375 * 100vw);
+    border-color: #0097A7;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: calc(151 / 375 * 100vw);
+    height: calc(151 / 375 * 100vw);
+    font-size: calc(23.99 / 375 * 100vw);
+  }
 }
 
-.point ul li .circle b {
+.point ul li .circle-bottom {
+  font-family: 'Noto Sans JP';
   display: block;
   font-size: calc(48 / 1366 * 100vw);
   color: #0097A7;
   font-weight: 400;
-  font-family: 'Noto Sans JP';
   padding-top: calc(7 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: calc(47.98 / 375 * 100vw);
+  }
 }
 
 .point ul li p {
@@ -49,8 +72,15 @@
   color: #000000;
   line-height: 1.7;
   font-weight: 400;
-  font-family: 'Noto Sans JP';
   letter-spacing: calc(0.3 / 1366 * 100vw);
+
+  @media (max-width: 767px) {
+    font-size: calc(19.99 / 375 * 100vw);
+    line-height: 1.9;
+  }
 }
+
+
+
 
 /* pointここまで */

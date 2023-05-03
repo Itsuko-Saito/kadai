@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* featureここから */
+.feature h3 {
+  text-align: center;
+  font-size: 3.513909224vw;
+  color: #0097A7;
+  line-height: 1.2;
+  font-family: "Noto Serif JP";
+  font-weight: 700;
+  padding-top: 3.6603221083vw;
+}
+
+/* counselingここから */
+.counseling {
+  height: 34.4070278184vw;
+  text-align: center;
+  margin-top: 3.074670571vw;
+}
+
+.counseling .sub-title h4 {
+  font-size: 3.513909224vw;
+  color: #606060;
+  line-height: 1.2;
+  font-family: "Noto Serif JP";
+  font-weight: 400;
+}
+
+.counseling .sub-title .sub-title-text {
+  font-size: 2.635431918vw;
+  color: #606060;
+  line-height: 1;
+  font-family: "Noto Serif JP";
+  font-weight: 400;
+  margin-top: 1.4641288433vw;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.196193265vw;
+}
+
+.table-box {
+  border-collapse: separate;
+  border-spacing: 0.7320644217vw;
+}
+
+.table-head {
+  border: none;
+  border-radius: 0.7320644217vw 0.7320644217vw 0 0;
+  background-color: #0097A7;
+  width: 69.5461200586vw;
+  height: 4.0995607613vw;
+  font-size: 2.3426061493vw;
+  color: #FFFFFF;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.row-head {
+  border: none;
+  background-color: #DDDDDD;
+  width: 20.0585651537vw;
+  height: 5.270863836vw;
+  text-align: center;
+  font-size: 1.756954612vw;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.row-head-bottom {
+  border: none;
+  background-color: #DDDDDD;
+  width: 20.0585651537vw;
+  height: 5.270863836vw;
+  border-radius: 0 0 0 0.7320644217vw;
+  text-align: center;
+  font-size: 1.756954612vw;
+  color: #000000;
+}
+
+.table-date {
+  border: none;
+  background-color: #EEEEEE;
+  width: 48.7554904832vw;
+  height: 5.270863836vw;
+  text-align: left;
+  padding-left: 2.1229868228vw;
+  line-height: 1.8;
+}
+
+.table-date-bottom {
+  border: none;
+  background-color: #EEEEEE;
+  width: 48.7554904832vw;
+  height: 5.270863836vw;
+  text-align: left;
+  padding-left: 2.1229868228vw;
+  line-height: 1.8;
+  border-radius: 0 0 0.7320644217vw 0;
+}
+
+/* counselingここまで *//*# sourceMappingURL=6_feature.css.map */

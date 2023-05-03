@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* accessここから */
+.access {
+  text-align: center;
+  margin-top: 1.8301610542vw;
+}
+
+.access .sub-title h4 {
+  font-size: 3.513909224vw;
+  color: #606060;
+  font-family: "Noto Serif JP";
+  font-weight: 400;
+}
+
+.access .sub-title-text {
+  font-size: 2.635431918vw;
+  color: #606060;
+  line-height: 1;
+  font-family: "Noto Serif JP";
+  font-weight: 400;
+  padding-top: 1.4641288433vw;
+}
+
+.access-map {
+  margin: 0 auto;
+  margin-top: 3.2942898975vw;
+  width: 84.1874084919vw;
+  overflow: hidden;
+}
+
+.access-address {
+  padding-top: 1.317715959vw;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* accessここまで *//*# sourceMappingURL=9_access.css.map */

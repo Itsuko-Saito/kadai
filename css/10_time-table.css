@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* time-tableここから */
+.time-table {
+  text-align: center;
+  margin-top: 1.9033674963vw;
+  margin-bottom: 4.39238653vw;
+}
+
+.time-table-address {
+  font-size: 1.756954612vw;
+  text-align: center;
+  padding-left: 2.3426061493vw;
+}
+
+.biz-hour {
+  width: 69.5461200586vw;
+  height: 7.3938506589vw;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 1.9033674963vw;
+}
+
+.biz-hour td {
+  font-size: 1.756954612vw;
+  padding: 0.5124450952vw;
+  text-align: center;
+  border-bottom: 2px solid #606060;
+}
+
+.biz .th1 {
+  padding-left: 2.196193265vw;
+}
+
+.biz-hour th {
+  font-weight: normal;
+  background-color: #0097A7;
+  width: 69.5461200586vw;
+  height: 2.9282576867vw;
+  font-size: 1.756954612vw;
+}
+
+/* time-tableここまで *//*# sourceMappingURL=10_time-table.css.map */

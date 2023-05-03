@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* footerここから */
+.footer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 32.7232796486vw;
+  height: 2.9282576867vw;
+}
+
+.footer-copyright {
+  font-size: 0.878477306vw;
+}/*# sourceMappingURL=16_footer.css.map */

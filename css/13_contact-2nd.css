@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*contact-2ndここから */
+.contact-2nd {
+  background-color: #B5E9EE;
+  height: 31.9912152269vw;
+}
+
+.contact-2nd h3 {
+  text-align: center;
+  font-size: 3.513909224vw;
+  color: #0097A7;
+  font-family: "Noto Serif JP";
+  font-weight: 700;
+}
+
+.contact-2nd .text {
+  font-size: 1.756954612vw;
+  color: #000000;
+}
+
+.contact-2nd .far {
+  padding-right: 1.6837481698vw;
+  padding-bottom: 1.6837481698vw;
+}
+.contact-2nd .far .contact .far {
+  text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
+  padding-right: 1.6837481698vw;
+  padding-bottom: 1.8301610542vw;
+}
+
+.contact-2nd .check {
+  margin-left: 34.4070278184vw;
+  margin-top: 3.953147877vw;
+  font-weight: 300;
+  font-size: 1.756954612vw;
+  color: #000000;
+}
+
+.contact-2nd .cv-button {
+  display: block;
+  text-align: center;
+  margin: 2.4158125915vw auto 0;
+  background-color: #0097A7;
+  box-shadow: 0.7320644217vw 0.7320644217vw rgba(32, 32, 32, 0.3098039216);
+  border-radius: 1.0980966325vw;
+  width: 40.8491947291vw;
+  height: 5.710102489vw;
+  font-size: 2.3426061493vw;
+  color: #FEFEFE;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 1.2445095168vw 0 0 3.6603221083vw;
+}
+
+.contact .cv-button .far {
+  font-family: FontAwesome;
+  color: #FEFEFE;
+  margin-left: 5px;
+}
+
+/* contact-2ndここまで *//*# sourceMappingURL=13_contact-2nd.css.map */

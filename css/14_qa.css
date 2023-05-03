@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*  qaここから */
+.qa .sub-title h4 {
+  padding-top: 3.4407027818vw;
+  text-align: center;
+  font-size: 3.513909224vw;
+  color: #0097A7;
+  font-family: "Noto Serif JP";
+  font-weight: 700;
+}
+
+.qa-box {
+  width: 100%;
+  width: 83.1625183016vw;
+  margin: 0 auto;
+  padding: 0 6.8081991215vw;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .qa {
+    padding-top: 2.5rem;
+    padding-bottom: 4.8rem;
+  }
+}
+.qa dl {
+  background: #fff;
+}
+
+/* TODOアコーディオン閉じた状態の間隔が異なる */
+@media screen and (max-width: 767px) {
+  .qa dl {
+    margin: 1.1rem 1.95rem 0;
+  }
+  .qa dl:first-of-type {
+    margin-top: 1.5rem;
+  }
+}
+.qa dl dt {
+  margin-top: 4.1727672035vw;
+  padding: 0.1464128843vw 2.7818448023vw 1.2445095168vw;
+  border-bottom: #0097A7 0.1464128843vw solid;
+  font-weight: 500;
+  position: relative;
+  font-size: 1.317715959vw;
+  color: #0097A7;
+}
+
+.qa dl dd {
+  margin-top: 0.0732064422vw;
+  padding: 1.0980966325vw 2.7818448023vw 1.4641288433vw;
+  border-bottom: #0097A7 0.1464128843vw solid;
+  font-weight: 500;
+  position: relative;
+  font-size: 1.317715959vw;
+  color: #0097A7;
+  width: 90%;
+}
+
+.qa dl dd {
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .qa dl dt,
+.qa dl dd {
+    padding: 0.8rem 3.1rem 0.6rem 3.1rem;
+    font-size: 1.4rem;
+    line-height: 1.1428571429;
+    border-bottom: #0097A7 2px solid;
+  }
+}
+.qa dl dt::before,
+.qa dl dd::before {
+  content: "Q.";
+  display: inline-block;
+  text-indent: -2.9282576867vw;
+  font-family: "Noto Serif JP";
+  font-size: 1.756954612vw;
+  color: #0097A7;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .qa dl dt::before,
+.qa dl dd::before {
+    text-indent: -2.5rem;
+  }
+}
+.qa dl dt {
+  cursor: pointer;
+}
+
+.qa dl dt::after {
+  content: "＋";
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.756954612vw;
+  color: #FFFFFF;
+  position: absolute;
+  right: 0.0732064422vw;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #0097A7;
+  width: 2.4158125915vw;
+  height: 2.4158125915vw;
+}
+
+@media screen and (max-width: 767px) {
+  .qa dl dt::after {
+    right: 1rem;
+    font-size: 1.4rem;
+  }
+}
+.qa dl dd {
+  padding-bottom: 0.7320644217vw;
+  border: none;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .qa dl dd {
+    padding-bottom: 0.7rem;
+  }
+}
+.qa dl dd::before {
+  content: "A.";
+}
+
+.qa dl.open dt::after {
+  content: "ー";
+}
+
+/* qaここまで *//*# sourceMappingURL=14_qa.css.map */
