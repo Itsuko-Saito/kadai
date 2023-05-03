@@ -1,19 +1,14 @@
-@charset "UTF-8";
-
-@use '1home';
-@use '2header';
-@use '3cover';
-@use '4point';
-@use '5contact';
-@use '6feature';
-@use '7price';
-@use '8shop';
-@use '9access';
-@use '10time-table';
-@use '11contact-2nd';
-@use '12qa';
-@use '13contact-3rd';
-@use '14footer';
-
-
-/*日本語*/
+@use 'home';
+@use 'header';
+@use 'cover';
+@use 'point';
+@use 'contact';
+@use 'feature';
+@use 'price';
+@use 'shop';
+@use 'access';
+@use 'time-table';
+@use 'contact-2nd';
+@use 'qa';
+@use 'contact-3rd';
+@use 'footer';
