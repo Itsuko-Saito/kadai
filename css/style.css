@@ -1449,6 +1449,10 @@ s .access .sub-title-text {
   content: "ー";
 }
 
+.qa dl dd :nth-child(3n) {
+  padding-top: 70vw;
+}
+
 /* qaここまで */
 /*contact-3ndここから */
 .contact-2nd {
