@@ -1016,7 +1016,7 @@ h6 {
 /* accessここから */
 .access {
   text-align: center;
-  height: 51.2445095168vw;
+  height: 49.7803806735vw;
 }
 @media (max-width: 767px) {
   .access {
@@ -1088,7 +1088,8 @@ h6 {
 /* time-tableここから */
 .time-table {
   text-align: center;
-  margin-top: 1.9033674963vw;
+  height: 14.6412884334vw;
+  margin-top: 0.9516837482vw;
   margin-bottom: 4.39238653vw;
 }
 @media (max-width: 767px) {
