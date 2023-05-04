@@ -20,7 +20,7 @@
 }
 
 .header-site-menu {
-  margin-left: 32vw;
+  margin-right: 7vw;
 }
 
 @media (max-width: 767px) {
@@ -78,7 +78,8 @@
 
 .header-logo {
   display: block;
-  margin-top: -0.9vw;
+  margin-left: 8vw;
+  width: calc(208 / 1366 * 100vw);
 }
 
 @media (max-width: 767px) {
