@@ -1,5 +1,5 @@
-/*contact-2ndここから */
-.contact-2nd {
+/* .contact-two ここから */
+.contact-two {
   background-color: #B5E9EE;
   height: calc(437 / 1366 * 100vw);
 
@@ -12,7 +12,7 @@
 
 
 // TODO: 幅の指定をなおす
-.contact-2nd h3 {
+.contact-two h3 {
   text-align: center;
   font-size: calc(48/ 1366 * 100vw);
   color: #0097A7;
@@ -26,7 +26,7 @@
 }
 
 
-.contact-2nd .text {
+.contact-two .text {
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
 
@@ -38,7 +38,7 @@
 }
 
 
-.contact-2nd .fa-square {
+.contact-two .fa-square {
   text-shadow: calc(2/ 1366 * 100vw)calc(2 / 1366 * 100vw)calc(2 / 1366 * 100vw) #2020204C;
   padding-right: calc(23 / 1366 * 100vw);
   padding-bottom: calc(25/ 1366 * 100vw);
@@ -52,7 +52,7 @@
   }
 }
 
-.contact-2nd .check {
+.contact-two .check {
   margin-left: calc(470 / 1366 * 100vw);
   margin-top: calc(54 / 1366 * 100vw);
   font-weight: 300;
@@ -68,7 +68,7 @@
   }
 }
 
-.contact-2nd .cv-button {
+.contact-two .cv-button {
   display: block;
   text-align: center;
   margin: calc(33/ 1366 * 100vw) auto 0;
@@ -96,7 +96,7 @@
   }
 }
 
-.contact-2nd .cv-button .fa-greater-than {
+.contact-two .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 5px;
@@ -106,4 +106,4 @@
   }
 }
 
-/* contact-2ndここまで */
+/*.contact-twoここまで */

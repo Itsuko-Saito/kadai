@@ -1158,20 +1158,20 @@ h6 {
 }
 
 /* time-tableここまで */
-/*contact-2ndここから */
-.contact-2nd {
+/* .contact-two ここから */
+.contact-two {
   background-color: #B5E9EE;
   height: 31.9912152269vw;
 }
 @media (max-width: 767px) {
-  .contact-2nd {
+  .contact-two {
     width: 100vw;
     height: 110.4vw;
     margin-top: -13.2vw;
   }
 }
 
-.contact-2nd h3 {
+.contact-two h3 {
   text-align: center;
   font-size: 3.513909224vw;
   color: #0097A7;
@@ -1179,31 +1179,31 @@ h6 {
   font-weight: 700;
 }
 @media (max-width: 767px) {
-  .contact-2nd h3 {
+  .contact-two h3 {
     font-size: 9.0666666667vw;
     margin-top: 11vw;
   }
 }
 
-.contact-2nd .text {
+.contact-two .text {
   font-size: 1.756954612vw;
   color: #000000;
 }
 @media (max-width: 767px) {
-  .contact-2nd .text {
+  .contact-two .text {
     font-size: 4.808vw;
     position: relative;
     line-height: 1.5;
   }
 }
 
-.contact-2nd .fa-square {
+.contact-two .fa-square {
   text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.8301610542vw;
 }
 @media (max-width: 767px) {
-  .contact-2nd .fa-square {
+  .contact-two .fa-square {
     font-size: 4.808vw;
     color: #000000;
     line-height: 1.2;
@@ -1212,7 +1212,7 @@ h6 {
   }
 }
 
-.contact-2nd .check {
+.contact-two .check {
   margin-left: 34.4070278184vw;
   margin-top: 3.953147877vw;
   font-weight: 300;
@@ -1220,7 +1220,7 @@ h6 {
   color: #000000;
 }
 @media (max-width: 767px) {
-  .contact-2nd .check {
+  .contact-two .check {
     font-size: 5.3333333333vw;
     color: #FEFEFE;
     font-weight: 400;
@@ -1229,7 +1229,7 @@ h6 {
   }
 }
 
-.contact-2nd .cv-button {
+.contact-two .cv-button {
   display: block;
   text-align: center;
   margin: 2.4158125915vw auto 0;
@@ -1245,7 +1245,7 @@ h6 {
   padding: 1.2445095168vw 0 0 3.6603221083vw;
 }
 @media (max-width: 767px) {
-  .contact-2nd .cv-button {
+  .contact-two .cv-button {
     border-radius: 4vw;
     box-shadow: 1vw 1vw 1vw 1vw rgba(32, 32, 32, 0.3098039216);
     width: 90.6vw;
@@ -1258,18 +1258,18 @@ h6 {
   }
 }
 
-.contact-2nd .cv-button .fa-greater-than {
+.contact-two .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 5px;
 }
 @media (max-width: 767px) {
-  .contact-2nd .cv-button .fa-greater-than {
+  .contact-two .cv-button .fa-greater-than {
     font-size: 5.3893333333vw;
   }
 }
 
-/* contact-2ndここまで */
+/*.contact-twoここまで */
 /*  qaここから */
 .qa .sub-title h4 {
   padding-top: 3.4407027818vw;
