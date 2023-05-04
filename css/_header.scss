@@ -9,15 +9,12 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
-  opacity: 0.702;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 767px) {
   .header {
     height: 16vw;
-    background-color: #ffffff;
-    opacity: 1;
   }
 }
 

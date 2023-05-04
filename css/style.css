@@ -43,11 +43,11 @@ img {
   display: flex;
 }
 
-.no-pc {
+no-pc {
   display: none;
 }
 
-.no-sp {
+no-sp {
   display: none;
 }
 
@@ -75,15 +75,12 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
-  opacity: 0.702;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 767px) {
   .header {
     height: 16vw;
-    background-color: #ffffff;
-    opacity: 1;
   }
 }
 .header-site-menu {
@@ -806,7 +803,7 @@ h6 {
 .price {
   text-align: center;
   margin-top: 2.3426061493vw;
-  height: 33.6749633968vw;
+  height: 32.9428989751vw;
 }
 @media (max-width: 767px) {
   .price {
@@ -924,6 +921,8 @@ h6 {
 .shop {
   text-align: center;
   margin-top: 3.074670571vw;
+  height: 40.2635431918vw;
+  margin: 0;
 }
 @media (max-width: 767px) {
   .shop {
