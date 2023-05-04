@@ -2,11 +2,6 @@
 .cover {
   padding: 0;
   position: relative;
-  margin-bottom: 186vw;
-
-  @media (max-width: 767px) {
-    margin-bottom: 20vw;
-  }
 }
 
 .cover h2 {
@@ -22,31 +17,51 @@
   line-height: 1.7;
   font-weight: 400;
   z-index: 10;
+}
 
-  @media (max-width: 767px) {
+@media (min-width: 767px) {
+  #cover-caption-pc {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #cover-caption-sp {
+    font-family: 'Noto Serif JP';
     font-size: calc(28 / 375 * 100vw);
     text-align: center;
   }
 }
 
-/* ここからテスト */
-/* https://mirailog.jp/css-only-carousel-slider */
+
+
+/* TODO SP版画像の表示サイズ小さい 画像を調整するとハンバガーボタンがずれてしまう。　秒数短めに変更 */
 .css-carousel-slider {
   width: 100%;
   /* max-width: 800px */
   /* サイズ設定をする場合はここ(*1) */
   overflow: hidden;
   position: relative;
+
   // @media (max-width: 767px) {
   //   display: none;
   // }
+  @media (max-width: 767px) {
+    width: 50%;
+  }
 }
 
 .css-carousel-slider img {
-  width: 100%;
-  height: auto;
+  max-width: 1366px;
+  height: 768px;
   vertical-align: top;
+
+  @media (max-width: 767px) {
+    width: 50%;
+    height: 350vw;
+  }
 }
+
 
 /* スライド設定 */
 .css-carousel-slider .slide-wrap {
@@ -61,9 +76,6 @@
   /* スライダーアニメーション全体の時間(*3) */
   animation-delay: 30s;
   /* スライダーが始まるまでの時間(*4) */
-  // @media (max-width: 767px) {
-  //   display: none;
-  // }
 }
 
 .css-carousel-slider .slide-wrap-main {
@@ -73,16 +85,10 @@
   /* (*3)と同じ内容を設定 */
   animation-delay: 30s;
   /* (*4)と同じ内容を設定 */
-  // @media (max-width: 767px) {
-  //   display: none;
-  // }
 }
 
 .css-carousel-slider .slide {
   width: 100%;
-  // @media (max-width: 767px) {
-  //   display: none;
-  // }
 }
 
 @media (min-width: 767px) {
