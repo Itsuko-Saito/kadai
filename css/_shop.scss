@@ -1,5 +1,5 @@
 /* shopここから */
-.shop {
+#shop {
   text-align: center;
   margin-top: calc(42 / 1366 * 100vw);
   height: calc(550 / 1366 * 100vw);
@@ -11,7 +11,7 @@
   }
 }
 
-.shop .sub-title h4 {
+#shop .sub-title h4 {
   font-size: calc(48 / 1366 * 100vw);
   color: #606060;
   font-family: 'Noto Serif JP';
@@ -22,7 +22,7 @@
   }
 }
 
-.shop .sub-title-text {
+#shop .sub-title-text {
   font-size: calc(36 / 1366 * 100vw);
   color: #606060;
   line-height: 1;
@@ -38,7 +38,7 @@
   }
 }
 
-.shop-box {
+#shop-box {
   justify-content: center;
   column-gap: calc(30 / 1366 * 100vw);
   height: calc(370 / 1366 * 100vw);
@@ -50,7 +50,7 @@
   }
 }
 
-.shop-box img {
+#shop-box img {
   width: calc(461/ 1366 * 100vw);
   height: calc(257 / 1366 * 100vw);
 
@@ -61,7 +61,7 @@
 }
 
 /* TODO 画像のテキストずれ */
-.shop-small-box-text {
+#shop-small-box-text {
   width: calc(465 / 1366 * 100vw);
   padding: calc(9/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(29/ 1366 * 100vw);
   color: #000000;

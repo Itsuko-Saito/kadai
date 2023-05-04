@@ -82,7 +82,7 @@ h6 {
   }
 }
 .header-site-menu {
-  margin-left: 32vw;
+  margin-right: 7vw;
 }
 
 @media (max-width: 767px) {
@@ -135,7 +135,8 @@ h6 {
 }
 .header-logo {
   display: block;
-  margin-top: -0.9vw;
+  margin-left: 8vw;
+  width: 15.2269399707vw;
 }
 
 @media (max-width: 767px) {
@@ -916,32 +917,32 @@ h6 {
 
 /* priceここまで */
 /* shopここから */
-.shop {
+#shop {
   text-align: center;
   margin-top: 3.074670571vw;
   height: 40.2635431918vw;
   margin: 0;
 }
 @media (max-width: 767px) {
-  .shop {
+  #shop {
     margin-top: -3vw;
     height: 213.3333333333vw;
   }
 }
 
-.shop .sub-title h4 {
+#shop .sub-title h4 {
   font-size: 3.513909224vw;
   color: #606060;
   font-family: "Noto Serif JP";
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  .shop .sub-title h4 {
+  #shop .sub-title h4 {
     font-size: 12.8vw;
   }
 }
 
-.shop .sub-title-text {
+#shop .sub-title-text {
   font-size: 2.635431918vw;
   color: #606060;
   line-height: 1;
@@ -950,7 +951,7 @@ h6 {
   padding-top: 1.317715959vw;
 }
 @media (max-width: 767px) {
-  .shop .sub-title-text {
+  #shop .sub-title-text {
     font-size: 8.5333333333vw;
     padding-top: 6vw;
     padding-bottom: 6vw;
@@ -958,7 +959,7 @@ h6 {
   }
 }
 
-.shop-box {
+#shop-box {
   justify-content: center;
   -moz-column-gap: 2.196193265vw;
        column-gap: 2.196193265vw;
@@ -966,25 +967,25 @@ h6 {
   margin-top: 3.1478770132vw;
 }
 @media (max-width: 767px) {
-  .shop-box {
+  #shop-box {
     display: block;
     margin-top: 4vw;
   }
 }
 
-.shop-box img {
+#shop-box img {
   width: 33.7481698389vw;
   height: 18.8140556369vw;
 }
 @media (max-width: 767px) {
-  .shop-box img {
+  #shop-box img {
     width: 92.5333333333vw;
     height: 53vw;
   }
 }
 
 /* TODO 画像のテキストずれ */
-.shop-small-box-text {
+#shop-small-box-text {
   width: 34.0409956076vw;
   padding: 0.6588579795vw 1.9033674963vw 1.9033674963vw 2.1229868228vw;
   color: #000000;
@@ -993,7 +994,7 @@ h6 {
   margin: 0;
 }
 @media (max-width: 767px) {
-  .shop-small-box-text {
+  #shop-small-box-text {
     font-size: 3.2vw;
     padding: 0;
     width: 84vw;
