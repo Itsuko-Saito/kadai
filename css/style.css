@@ -241,18 +241,18 @@ h6 {
     display: none;
   }
 }
-@media (max-width: 767px) {
-  #cover-caption-sp {
-    font-family: "Noto Serif JP";
-    font-size: 5vw;
-    text-align: center;
-    padding-top: 22vw;
-    line-height: 1.6;
-    margin-bottom: 3vw;
-  }
+#cover-caption-sp {
+  font-family: "Noto Serif JP";
+  font-size: 7.4666666667vw;
+  text-align: center;
+  padding-top: 15vw;
+  line-height: 1.6;
+  margin-bottom: 3vw;
 }
+
 /* グレーの線を引く */
 #cover-caption-sp .cv-button {
+  font-family: noto-sans-jp;
   background-color: #0097A7;
   color: #FEFEFE;
   border-radius: 3vw;
@@ -279,7 +279,6 @@ h6 {
 
 @media (max-width: 767px) {
   .css-carousel-slider {
-    /* width: 50%; */
     top: 60px;
   }
 }
@@ -306,9 +305,9 @@ h6 {
   -webkit-animation: css-carousel-slider 10s infinite;
   animation: css-carousel-slider 10s infinite;
   /* スライダーアニメーション全体の時間(*3) */
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-  /* スライダーが始まるまでの時間(*4) */
+  -webkit-animation-delay: 60s;
+  animation-delay: 60s;
+  /* TODO:スライダーが始まるまでの時間(*4) 5秒から六60秒へ変更 */
 }
 
 .css-carousel-slider .slide-wrap-main {
