@@ -9,12 +9,13 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 767px) {
   .header {
     height: 16vw;
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
 
@@ -66,7 +67,7 @@
 #toggle-menu-button {
   color: #606060;
   font-size: 8.5vw;
-  margin-left: 16.6vw;
+  margin-right: 6vw;
 }
 
 @media (min-width: 768px) {
