@@ -56,10 +56,11 @@ h6 {
   font-weight: normal;
 }
 
-.display-none-pc {
-  display: none;
+@media (min-width: 768px) {
+  .display-none-pc {
+    display: none;
+  }
 }
-
 /* headerここから */
 /* TODO:リンク先設定すること */
 /* ヘッダー固定に戻すこと */
