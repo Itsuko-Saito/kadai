@@ -1,5 +1,5 @@
 /* time-tableここから */
-.time-table {
+#time-table {
   text-align: center;
   height: calc(200 / 1366 * 100vw);
   margin-top: calc(13 / 1366 * 100vw);
@@ -12,7 +12,7 @@
   }
 }
 
-.time-table-address {
+#time-table .time-table-address {
   font-size: calc(24 / 1366 * 100vw);
   text-align: center;
   padding-left: calc(32 / 1366 * 100vw);

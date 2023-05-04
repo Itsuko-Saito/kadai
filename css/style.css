@@ -499,20 +499,20 @@ h6 {
 
 /* pointここまで */
 /* contactこから */
-.contact {
+#contact {
   background-color: #B5E9EE;
   height: 31.9912152269vw;
   padding: 3.6603221083vw;
 }
 @media (max-width: 767px) {
-  .contact {
+  #contact {
     width: 100vw;
     height: 110.4vw;
     margin-top: -13.2vw;
   }
 }
 
-.contact h3 {
+#contact h3 {
   text-align: center;
   font-size: 3.513909224vw;
   color: #0097A7;
@@ -521,32 +521,32 @@ h6 {
   font-weight: 700;
 }
 @media (max-width: 767px) {
-  .contact h3 {
+  #contact h3 {
     font-size: 9.0666666667vw;
     margin-top: 11vw;
   }
 }
 
-.contact .text {
+#contact .text {
   font-size: 1.7591508053vw;
   color: #000000;
   line-height: 1.2;
 }
 @media (max-width: 767px) {
-  .contact .text {
+  #contact .text {
     font-size: 4.808vw;
     position: relative;
     line-height: 1.5;
   }
 }
 
-.contact .fa-square {
+#contact .fa-square {
   text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.8301610542vw;
 }
 @media (max-width: 767px) {
-  .contact .fa-square {
+  #contact .fa-square {
     font-size: 4.808vw;
     color: #000000;
     line-height: 1.2;
@@ -555,7 +555,7 @@ h6 {
   }
 }
 
-.contact .check {
+#contact .check {
   margin-left: 30.9663250366vw;
   margin-top: 3.953147877vw;
   font-weight: 300;
@@ -564,7 +564,7 @@ h6 {
   line-height: 1.2;
 }
 @media (max-width: 767px) {
-  .contact .check {
+  #contact .check {
     font-size: 5.3333333333vw;
     color: #FEFEFE;
     font-weight: 400;
@@ -573,7 +573,7 @@ h6 {
   }
 }
 
-.contact .cv-button {
+#contact .cv-button {
   display: block;
   text-align: center;
   margin: 2.4158125915vw auto 0;
@@ -588,7 +588,7 @@ h6 {
   padding: 1.2445095168vw 0 0 3.6603221083vw;
 }
 @media (max-width: 767px) {
-  .contact .cv-button {
+  #contact .cv-button {
     border-radius: 4vw;
     box-shadow: 1vw 1vw 1vw 1vw rgba(32, 32, 32, 0.3098039216);
     width: 90.6vw;
@@ -601,13 +601,13 @@ h6 {
   }
 }
 
-.contact .cv-button .fa-greater-than {
+#contact .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 5px;
 }
 @media (max-width: 767px) {
-  .contact .cv-button .fa-greater-than {
+  #contact .cv-button .fa-greater-than {
     font-size: 5.3893333333vw;
   }
 }
@@ -973,19 +973,19 @@ h6 {
   }
 }
 
-#shop-box img {
+#shop .shop-box img {
   width: 33.7481698389vw;
   height: 18.8140556369vw;
 }
 @media (max-width: 767px) {
-  #shop-box img {
+  #shop .shop-box img {
     width: 92.5333333333vw;
     height: 53vw;
   }
 }
 
 /* TODO 画像のテキストずれ */
-#shop-small-box-text {
+#shop .shop-small-box-text {
   width: 34.0409956076vw;
   padding: 0.6588579795vw 1.9033674963vw 1.9033674963vw 2.1229868228vw;
   color: #000000;
@@ -994,7 +994,7 @@ h6 {
   margin: 0;
 }
 @media (max-width: 767px) {
-  #shop-small-box-text {
+  #shop .shop-small-box-text {
     font-size: 3.2vw;
     padding: 0;
     width: 84vw;
@@ -1044,7 +1044,7 @@ h6 {
   }
 }
 
-s #access .sub-title-text {
+#access .sub-title-text {
   font-size: 2.635431918vw;
   color: #606060;
   line-height: 1;
@@ -1053,7 +1053,7 @@ s #access .sub-title-text {
   padding-top: 1.4641288433vw;
 }
 @media (max-width: 767px) {
-  s #access .sub-title-text {
+  #access .sub-title-text {
     font-size: 8.5vw;
     line-height: 1.5;
     padding-top: 2.8vw;
@@ -1094,27 +1094,27 @@ s #access .sub-title-text {
 
 /* accessここまで */
 /* time-tableここから */
-.time-table {
+#time-table {
   text-align: center;
   height: 14.6412884334vw;
   margin-top: 0.9516837482vw;
   margin-bottom: 3.392387vw;
 }
 @media (max-width: 767px) {
-  .time-table {
+  #time-table {
     height: 54.6666666667vw;
     margin-top: 6vw;
     margin-bottom: 0;
   }
 }
 
-.time-table-address {
+#time-table .time-table-address {
   font-size: 1.756954612vw;
   text-align: center;
   padding-left: 2.3426061493vw;
 }
 @media (max-width: 767px) {
-  .time-table-address {
+  #time-table .time-table-address {
     font-size: 4.8vw;
     line-height: 1.5;
   }
@@ -1167,20 +1167,20 @@ s #access .sub-title-text {
 }
 
 /* time-tableここまで */
-/* .contact-two ここから */
-.contact-two {
+/* #contact-two ここから */
+#contact-two {
   background-color: #B5E9EE;
   height: 31.9912152269vw;
   margin-top: 0;
 }
 @media (max-width: 767px) {
-  .contact-two {
+  #contact-two {
     width: 100vw;
     height: 110.4vw;
   }
 }
 
-.contact-two h3 {
+#contact-two h3 {
   text-align: center;
   font-size: 3.513909224vw;
   color: #0097A7;
@@ -1189,18 +1189,18 @@ s #access .sub-title-text {
   margin-top: 0;
 }
 @media (max-width: 767px) {
-  .contact-two h3 {
+  #contact-two h3 {
     font-size: 9.0666666667vw;
   }
 }
 
-.contact-two .text {
+#contact-two .text {
   font-size: 1.756954612vw;
   color: #000000;
   margin: 0;
 }
 @media (max-width: 767px) {
-  .contact-two .text {
+  #contact-two .text {
     font-size: 4.808vw;
     position: relative;
     line-height: 1.5;
@@ -1208,13 +1208,13 @@ s #access .sub-title-text {
   }
 }
 
-.contact-two .fa-square {
+#contact-two .fa-square {
   text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.8301610542vw;
 }
 @media (max-width: 767px) {
-  .contact-two .fa-square {
+  #contact-two .fa-square {
     font-size: 4.808vw;
     color: #000000;
     line-height: 1.2;
@@ -1223,7 +1223,7 @@ s #access .sub-title-text {
   }
 }
 
-.contact-two .check {
+#contact-two .check {
   margin-left: 34.4070278184vw;
   margin-top: 3.953147877vw;
   font-weight: 300;
@@ -1231,7 +1231,7 @@ s #access .sub-title-text {
   color: #000000;
 }
 @media (max-width: 767px) {
-  .contact-two .check {
+  #contact-two .check {
     font-size: 5.3333333333vw;
     color: #FEFEFE;
     font-weight: 400;
@@ -1240,7 +1240,7 @@ s #access .sub-title-text {
   }
 }
 
-.contact-two .cv-button {
+#contact-two .cv-button {
   display: block;
   text-align: center;
   margin: 2.4158125915vw auto 0;
@@ -1256,7 +1256,7 @@ s #access .sub-title-text {
   padding: 1.2445095168vw 0 0 3.6603221083vw;
 }
 @media (max-width: 767px) {
-  .contact-two .cv-button {
+  #contact-two .cv-button {
     border-radius: 4vw;
     box-shadow: 1vw 1vw 1vw 1vw rgba(32, 32, 32, 0.3098039216);
     width: 90.6vw;
@@ -1269,13 +1269,13 @@ s #access .sub-title-text {
   }
 }
 
-.contact-two .cv-button .fa-greater-than {
+#contact-two .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 5px;
 }
 @media (max-width: 767px) {
-  .contact-two .cv-button .fa-greater-than {
+  #contact-two .cv-button .fa-greater-than {
     font-size: 5.3893333333vw;
   }
 }
@@ -1456,13 +1456,13 @@ s #access .sub-title-text {
 }
 
 /* qaここまで */
-/*contact-3ndここから */
-.contact-2nd {
+/*contact-threeここから */
+#contact-three {
   background-color: #B5E9EE;
   height: 31.9912152269vw;
 }
 
-.contact-2nd h3 {
+#contact-three h3 {
   text-align: center;
   font-size: 3.513909224vw;
   color: #0097A7;
@@ -1470,22 +1470,22 @@ s #access .sub-title-text {
   font-weight: 700;
 }
 
-.contact-2nd .text {
+#contact-three .text {
   font-size: 1.756954612vw;
   color: #000000;
 }
 
-.contact-2nd .far {
+#contact-three .far {
   padding-right: 1.6837481698vw;
   padding-bottom: 1.6837481698vw;
 }
-.contact-2nd .far .contact .far {
+#contact-three .far .contact .far {
   text-shadow: 0.1464128843vw 0.1464128843vw 0.1464128843vw rgba(32, 32, 32, 0.2980392157);
   padding-right: 1.6837481698vw;
   padding-bottom: 1.8301610542vw;
 }
 
-.contact-2nd .check {
+#contact-three .check {
   margin-left: 34.4070278184vw;
   margin-top: 3.953147877vw;
   font-weight: 300;
@@ -1493,7 +1493,7 @@ s #access .sub-title-text {
   color: #000000;
 }
 
-.contact-2nd .cv-button {
+#contact-three .cv-button {
   display: block;
   text-align: center;
   margin: 2.4158125915vw auto 0;

@@ -50,7 +50,7 @@
   }
 }
 
-#shop-box img {
+#shop .shop-box img {
   width: calc(461/ 1366 * 100vw);
   height: calc(257 / 1366 * 100vw);
 
@@ -61,7 +61,7 @@
 }
 
 /* TODO 画像のテキストずれ */
-#shop-small-box-text {
+#shop .shop-small-box-text {
   width: calc(465 / 1366 * 100vw);
   padding: calc(9/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(26/ 1366 * 100vw)calc(29/ 1366 * 100vw);
   color: #000000;

@@ -1,5 +1,5 @@
 /* contactこから */
-.contact {
+#contact {
   background-color: #B5E9EE;
   height: calc(437 / 1366 * 100vw);
   padding: calc(50 / 1366 * 100vw);
@@ -11,7 +11,7 @@
   }
 }
 
-.contact h3 {
+#contact h3 {
   text-align: center;
   font-size: calc(48 / 1366 * 100vw);
   color: #0097A7;
@@ -26,7 +26,8 @@
 }
 
 
-.contact .text {
+
+#contact .text {
   font-size: calc(24.03 / 1366 * 100vw);
   color: #000000;
   line-height: 1.2;
@@ -38,7 +39,7 @@
   }
 }
 
-.contact .fa-square {
+#contact .fa-square {
   text-shadow: calc(2/ 1366 * 100vw)calc(2 / 1366 * 100vw)calc(2 / 1366 * 100vw) #2020204C;
   padding-right: calc(23 / 1366 * 100vw);
   padding-bottom: calc(25/ 1366 * 100vw);
@@ -52,7 +53,7 @@
   }
 }
 
-.contact .check {
+#contact .check {
   margin-left: calc(423 / 1366 * 100vw);
   margin-top: calc(54 / 1366 * 100vw);
   font-weight: 300;
@@ -69,7 +70,7 @@
   }
 }
 
-.contact .cv-button {
+#contact .cv-button {
   display: block;
   text-align: center;
   margin: calc(33 / 1366 * 100vw) auto 0;
@@ -96,7 +97,7 @@
   }
 }
 
-.contact .cv-button .fa-greater-than {
+#contact .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 5px;
