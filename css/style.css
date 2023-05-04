@@ -299,7 +299,7 @@ h6 {
 
 @media (max-width: 767px) {
   .css-carousel-slider {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 
@@ -311,8 +311,8 @@ h6 {
 
 @media (max-width: 767px) {
   .css-carousel-slider img {
-    width: 50%;
-    height: 350vw;
+    /* width: 50%; */
+    height: 100vw;
   }
 }
 
@@ -348,13 +348,13 @@ h6 {
   width: 100%;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .display-pc {
     display: none;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .display-sp {
     display: none;
   }
