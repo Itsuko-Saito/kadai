@@ -187,6 +187,7 @@ h6 {
   text-align: center;
   padding-top: 9px;
   font-size: 1.2vw;
+  border-color: #0097A7;
 }
 
 @media (max-width: 767px) {
@@ -959,7 +960,7 @@ h6 {
   }
 }
 
-#shop-box {
+#shop .shop-box {
   justify-content: center;
   -moz-column-gap: 2.196193265vw;
        column-gap: 2.196193265vw;
@@ -967,7 +968,7 @@ h6 {
   margin-top: 3.1478770132vw;
 }
 @media (max-width: 767px) {
-  #shop-box {
+  #shop .shop-box {
     display: block;
     margin-top: 4vw;
   }
