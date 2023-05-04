@@ -218,6 +218,11 @@ h6 {
   padding: 0;
   position: relative;
 }
+@media (max-width: 767px) {
+  .cover {
+    height: 100vw;
+  }
+}
 
 .cover h2 {
   position: absolute;
@@ -242,10 +247,33 @@ h6 {
 @media (max-width: 767px) {
   #cover-caption-sp {
     font-family: "Noto Serif JP";
-    font-size: 7.4666666667vw;
+    font-size: 5vw;
     text-align: center;
+    padding-top: 22vw;
+    line-height: 1.6;
+    margin-bottom: 21vw;
   }
 }
+/* グレーの線を引く */
+#cover-caption-sp .cv-button {
+  font-family: "Noto Sans JP";
+  background-color: #0097A7;
+  color: #FEFEFE;
+  border-radius: 3vw;
+  font-weight: 400;
+  margin: 0 auto;
+  font-size: 4.8vw;
+  line-height: 1.2;
+  padding: 2vw 6vw 2vw 6vw;
+}
+
+#cover-caption-sp .cv-button .fa-greater-than {
+  font-family: FontAwesome;
+  color: #FEFEFE;
+  margin-left: 3px;
+  font-weight: 300;
+}
+
 /* TODO SP版画像の表示サイズ小さい 画像を調整するとハンバガーボタンがずれてしまう。　秒数短めに変更 */
 .css-carousel-slider {
   width: 100%;
