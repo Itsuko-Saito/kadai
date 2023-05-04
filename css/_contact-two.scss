@@ -2,11 +2,11 @@
 .contact-two {
   background-color: #B5E9EE;
   height: calc(437 / 1366 * 100vw);
+  margin-top: 0;
 
   @media (max-width: 767px) {
     width: calc(375 / 375 * 100vw);
     height: calc(414 / 375 * 100vw);
-    margin-top: -13.2vw;
   }
 }
 
@@ -18,10 +18,10 @@
   color: #0097A7;
   font-family: 'Noto Serif JP';
   font-weight: 700;
+  margin-top: 0;
 
   @media (max-width: 767px) {
     font-size: calc(34 / 375 * 100vw);
-    margin-top: 11vw;
   }
 }
 
@@ -29,11 +29,13 @@
 .contact-two .text {
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
+  margin: 0;
 
   @media (max-width: 767px) {
     font-size: calc(18.03 / 375 * 100vw);
     position: relative;
     line-height: 1.5;
+    margin: 5vw 0 0vw 4vw;
   }
 }
 
