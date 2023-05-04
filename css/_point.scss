@@ -8,10 +8,12 @@
   @media (max-width: 767px) {
     height: 606px;
     padding: 3.3vw;
-    margin-top: 31vw;
     height: calc(604 / 375 * 100vw);
+    margin-top: 85vw;
   }
 }
+
+/* TODO：スタイル調整のためマージントップを大きくしていている */
 
 .point ul {
   display: flex;
@@ -81,8 +83,5 @@
     line-height: 1.9;
   }
 }
-
-
-
 
 /* pointここまで */

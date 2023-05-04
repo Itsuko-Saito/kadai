@@ -156,7 +156,6 @@ h6 {
     text-align: left;
   }
 }
-/* TODO:テキストの色＃０００に変更　　画面縮小でレイアウト崩れ発生する */
 .site-menu ul li a {
   font-weight: 400;
   font-size: 1.1713030747vw;
@@ -305,9 +304,9 @@ h6 {
   -webkit-animation: css-carousel-slider 10s infinite;
   animation: css-carousel-slider 10s infinite;
   /* スライダーアニメーション全体の時間(*3) */
-  -webkit-animation-delay: 60s;
-  animation-delay: 60s;
-  /* TODO:スライダーが始まるまでの時間(*4) 5秒から六60秒へ変更 */
+  -webkit-animation-delay: 300s;
+  animation-delay: 300s;
+  /* TODO:スライダーが始まるまでの時間(*4) 5秒から３００秒へ変更 */
 }
 
 .css-carousel-slider .slide-wrap-main {
@@ -416,11 +415,12 @@ h6 {
   .point {
     height: 606px;
     padding: 3.3vw;
-    margin-top: 31vw;
     height: 161.0666666667vw;
+    margin-top: 85vw;
   }
 }
 
+/* TODO：スタイル調整のためマージントップを大きくしていている */
 .point ul {
   display: flex;
   justify-content: center;
