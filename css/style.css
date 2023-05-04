@@ -138,7 +138,7 @@ h6 {
     display: none;
   }
 }
-​.header-logo {
+.header-logo {
   display: block;
   margin-top: -0.9vw;
 }
@@ -147,7 +147,7 @@ h6 {
   .header-logo {
     width: 68vw;
     height: 6.1333333333vw;
-    margin: 0;
+    margin-left: 4vw;
   }
 }
 .site-menu ul {
@@ -217,12 +217,6 @@ h6 {
 .cover {
   padding: 0;
   position: relative;
-  margin-bottom: 186vw;
-}
-@media (max-width: 767px) {
-  .cover {
-    margin-bottom: 20vw;
-  }
 }
 
 .cover h2 {
@@ -239,15 +233,20 @@ h6 {
   font-weight: 400;
   z-index: 10;
 }
+
+@media (min-width: 767px) {
+  #cover-caption-pc {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
-  .cover h2 {
+  #cover-caption-sp {
+    font-family: "Noto Serif JP";
     font-size: 7.4666666667vw;
     text-align: center;
   }
 }
-
-/* ここからテスト */
-/* https://mirailog.jp/css-only-carousel-slider */
+/* TODO SP版画像の表示サイズ小さい 画像を調整するとハンバガーボタンがずれてしまう。　秒数短めに変更 */
 .css-carousel-slider {
   width: 100%;
   /* max-width: 800px */
@@ -255,11 +254,22 @@ h6 {
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 767px) {
+  .css-carousel-slider {
+    width: 50%;
+  }
+}
 
 .css-carousel-slider img {
-  width: 100%;
-  height: auto;
+  max-width: 1366px;
+  height: 768px;
   vertical-align: top;
+}
+@media (max-width: 767px) {
+  .css-carousel-slider img {
+    width: 50%;
+    height: 350vw;
+  }
 }
 
 /* スライド設定 */
