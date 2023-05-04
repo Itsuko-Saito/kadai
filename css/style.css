@@ -671,7 +671,6 @@ h6 {
   line-height: 1;
   font-family: "Noto Serif JP";
   font-weight: 400;
-  margin-top: 1.4641288433vw;
   margin-top: 1.6vw;
 }
 @media (max-width: 767px) {
@@ -685,14 +684,21 @@ h6 {
 .table-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 2.196193265vw;
+  margin-top: 2vw;
+  padding: 0 14vw 0 14vw;
+}
+@media (max-width: 767px) {
+  .table-wrapper {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .table-box {
   border-collapse: separate;
   border-spacing: 0.7320644217vw;
   margin: 0;
-  border-spacing: 1.5vw;
+  border-spacing: 0.8vw;
 }
 @media (max-width: 767px) {
   .table-box {
@@ -715,8 +721,8 @@ h6 {
 }
 @media (max-width: 767px) {
   .table-head {
-    width: 92.2666666667vw;
-    height: 8vw;
+    width: 90vw;
+    height: 15vw;
     border-radius: 5vw 5vw 0 0;
     font-size: 4.8vw;
     padding-bottom: 4vw;
@@ -726,8 +732,7 @@ h6 {
 .row-head {
   border: none;
   background-color: #DDDDDD;
-  width: 20.0585651537vw;
-  height: 5.270863836vw;
+  width: 26vw;
   text-align: center;
   font-size: 1.756954612vw;
   color: #000000;
@@ -743,8 +748,7 @@ h6 {
 .row-head-bottom {
   border: none;
   background-color: #DDDDDD;
-  width: 20.0585651537vw;
-  height: 5.270863836vw;
+  width: 26vw;
   border-radius: 0 0 0 0.7320644217vw;
   text-align: center;
   font-size: 1.756954612vw;
@@ -761,13 +765,11 @@ h6 {
 .table-date {
   border: none;
   background-color: #EEEEEE;
-  width: 48.7554904832vw;
-  height: 5.270863836vw;
   text-align: left;
   padding: 0 0 0 2.1229868228vw;
   line-height: 1.8;
-  width: 62.6666666667vw;
-  height: 28.2666666667vw;
+  width: 61.666667vw;
+  height: 5.666667vw;
 }
 @media (max-width: 767px) {
   .table-date {

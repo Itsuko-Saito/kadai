@@ -49,7 +49,6 @@
   line-height: 1;
   font-family: 'Noto Serif JP';
   font-weight: 400;
-  margin-top: calc(20 / 1366 * 100vw);
   margin-top: 1.6vw;
 
   @media (max-width: 767px) {
@@ -62,14 +61,20 @@
 .table-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: calc(30 / 1366 * 100vw);
+  margin-top: 2vw;
+  padding: 0 14vw 0 14vw;
+
+  @media (max-width: 767px) {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .table-box {
   border-collapse: separate;
   border-spacing: calc(10 / 1366 * 100vw);
   margin: 0;
-  border-spacing: 1.5vw;
+  border-spacing: 0.8vw;
 
   @media (max-width: 767px) {
     margin-top: 5vw;
@@ -91,10 +96,10 @@
   padding: 0;
 
   @media (max-width: 767px) {
-    width: calc(346 / 375 * 100vw);
-    height: 8vw;
+    width: 90vw;
+    height: 15vw;
     border-radius: 5vw 5vw 0 0;
-    font-size: calc(18 / 375 * 100vw);
+    font-size: 4.8vw;
     padding-bottom: 4vw;
   }
 }
@@ -102,8 +107,7 @@
 .row-head {
   border: none;
   background-color: #DDDDDD;
-  width: calc(274 / 1366 * 100vw);
-  height: calc(72 / 1366 * 100vw);
+  width: 26vw;
   text-align: center;
   font-size: calc(24 / 1366 * 100vw);
   color: #000000;
@@ -118,8 +122,7 @@
 .row-head-bottom {
   border: none;
   background-color: #DDDDDD;
-  width: calc(274 / 1366 * 100vw);
-  height: calc(72 / 1366 * 100vw);
+  width: 26vw;
   border-radius: 0 0 0 calc(10 / 1366 * 100vw);
   text-align: center;
   font-size: calc(24 / 1366 * 100vw);
@@ -135,13 +138,11 @@
 .table-date {
   border: none;
   background-color: #EEEEEE;
-  width: calc(666 / 1366 * 100vw);
-  height: calc(72 / 1366 * 100vw);
   text-align: left;
   padding: 0 0 0 calc(29 / 1366 * 100vw);
   line-height: 1.8;
-  width: calc(235 / 375 * 100vw);
-  height: calc(106 / 375 * 100vw);
+  width: 61.666667vw;
+  height: 5.666667vw;
 
   @media (max-width: 767px) {
     font-size: 3.2vw;
