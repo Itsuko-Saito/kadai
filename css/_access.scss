@@ -1,5 +1,5 @@
 /* accessここから */
-.access {
+#access {
   text-align: center;
   height: calc(680 / 1366 * 100vw);
   margin: 0;
@@ -10,7 +10,7 @@
   }
 }
 
-.access .sub-title h4 {
+#access .sub-title h4 {
   font-size: calc(48 / 1366 * 100vw);
   color: #606060;
   font-family: 'Noto Serif JP';
@@ -24,7 +24,7 @@
   }
 }
 
-s .access .sub-title-text {
+s #access .sub-title-text {
   font-size: calc(36 / 1366 * 100vw);
   color: #606060;
   line-height: 1;
@@ -39,7 +39,7 @@ s .access .sub-title-text {
   }
 }
 
-.access-map {
+#access-map {
   margin: 0 auto;
   max-width: 100%;
   margin-top: calc(45 / 1366 * 100vw);
@@ -53,7 +53,7 @@ s .access .sub-title-text {
 }
 
 /* TODO JR東京駅のレイアウトPC版がずれている */
-.access-address {
+#access-address {
   padding-top: calc(18 / 1366 * 100vw);
   padding: 0;
   object-fit: cover;
