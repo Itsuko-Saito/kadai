@@ -43,10 +43,6 @@ img {
   display: flex;
 }
 
-no-sp {
-  display: none;
-}
-
 .marker {
   background: linear-gradient(#ffffff 20%, #B5E9EE 10%, #B5E9EE 85%, #ffffff 35%);
 }
@@ -1020,7 +1016,7 @@ h6 {
 /* accessここから */
 .access {
   text-align: center;
-  margin-top: 1.8301610542vw;
+  height: 51.2445095168vw;
 }
 @media (max-width: 767px) {
   .access {
@@ -1058,8 +1054,9 @@ h6 {
 
 .access-map {
   margin: 0 auto;
+  max-width: 100%;
   margin-top: 3.2942898975vw;
-  width: 84.1874084919vw;
+  height: 35.4319180088vw;
   overflow: hidden;
 }
 @media (max-width: 767px) {
@@ -1069,10 +1066,10 @@ h6 {
   }
 }
 
-/* TODO JR東京駅のレイアウトがずれている */
+/* TODO JR東京駅のレイアウトPC版がずれている */
 .access-address {
   padding-top: 1.317715959vw;
-  max-width: 100%;
+  padding: 0;
   -o-object-fit: cover;
      object-fit: cover;
 }

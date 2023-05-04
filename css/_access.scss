@@ -1,7 +1,7 @@
 /* accessここから */
 .access {
   text-align: center;
-  margin-top: calc(25 / 1366 * 100vw);
+  height: calc(700 / 1366 * 100vw);
 
   @media (max-width: 767px) {
     height: calc(520 / 375 * 100vw);
@@ -36,8 +36,9 @@
 
 .access-map {
   margin: 0 auto;
+  max-width: 100%;
   margin-top: calc(45 / 1366 * 100vw);
-  width: calc(1150 / 1366 * 100vw);
+  height: calc(484 / 1366 * 100vw);
   overflow: hidden;
 
   @media (max-width: 767px) {
@@ -46,10 +47,10 @@
   }
 }
 
-/* TODO JR東京駅のレイアウトがずれている */
+/* TODO JR東京駅のレイアウトPC版がずれている */
 .access-address {
   padding-top: calc(18 / 1366 * 100vw);
-  max-width: 100%;
+  padding: 0;
   object-fit: cover;
 
   @media (max-width: 767px) {
