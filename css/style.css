@@ -43,10 +43,6 @@ img {
   display: flex;
 }
 
-no-pc {
-  display: none;
-}
-
 no-sp {
   display: none;
 }
@@ -62,6 +58,10 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+}
+
+.display-none-pc {
+  display: none;
 }
 
 /* headerここから */
@@ -970,6 +970,7 @@ h6 {
 @media (max-width: 767px) {
   .shop-box {
     display: block;
+    margin-top: 4vw;
   }
 }
 
@@ -991,12 +992,14 @@ h6 {
   color: #000000;
   line-height: 1.7;
   text-align: left;
+  margin: 0;
 }
 @media (max-width: 767px) {
   .shop-small-box-text {
     font-size: 3.2vw;
     padding: 0;
     width: 84vw;
+    margin: 4vw 10vw 5vw 9vw;
   }
 }
 
