@@ -35,6 +35,7 @@
   line-height: 1.2;
   font-family: 'Noto Serif JP';
   font-weight: 400;
+  padding: 0;
 
   @media (max-width: 767px) {
     font-size: calc(47.98 / 375 * 100vw);
@@ -49,6 +50,7 @@
   font-family: 'Noto Serif JP';
   font-weight: 400;
   margin-top: calc(20 / 1366 * 100vw);
+  margin-top: 1.6vw;
 
   @media (max-width: 767px) {
     font-size: calc(31.99 / 375 * 100vw);
@@ -66,10 +68,12 @@
 .table-box {
   border-collapse: separate;
   border-spacing: calc(10 / 1366 * 100vw);
+  margin: 0;
+  border-spacing: 1.5vw;
 
   @media (max-width: 767px) {
     margin-top: 5vw;
-    border-spacing: 2.5vw
+    border-spacing: 2.5vw;
   }
 }
 
@@ -84,6 +88,7 @@
   color: #FFFFFF;
   line-height: 1.2;
   font-weight: 400;
+  padding: 0;
 
   @media (max-width: 767px) {
     width: calc(346 / 375 * 100vw);
@@ -113,8 +118,7 @@
 .row-head-bottom {
   border: none;
   background-color: #DDDDDD;
-  width:
-    calc(274 / 1366 * 100vw);
+  width: calc(274 / 1366 * 100vw);
   height: calc(72 / 1366 * 100vw);
   border-radius: 0 0 0 calc(10 / 1366 * 100vw);
   text-align: center;
@@ -134,7 +138,7 @@
   width: calc(666 / 1366 * 100vw);
   height: calc(72 / 1366 * 100vw);
   text-align: left;
-  padding-left: calc(29 / 1366 * 100vw);
+  padding: 0 0 0 calc(29 / 1366 * 100vw);
   line-height: 1.8;
   width: calc(235 / 375 * 100vw);
   height: calc(106 / 375 * 100vw);
@@ -154,7 +158,7 @@
   width: calc(666 / 1366 * 100vw);
   height: calc(72 / 1366 * 100vw);
   text-align: left;
-  padding-left: calc(29 / 1366 * 100vw);
+  padding: 0 0 0 calc(29 / 1366 * 100vw);
   line-height: 1.8;
   border-radius: 0 0 calc(10 / 1366 * 100vw) 0;
 

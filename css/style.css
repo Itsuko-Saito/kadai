@@ -43,7 +43,7 @@ img {
   display: flex;
 }
 
-no-pc {
+.no-pc {
   display: none;
 }
 
@@ -251,7 +251,7 @@ h6 {
     text-align: center;
     padding-top: 22vw;
     line-height: 1.6;
-    margin-bottom: 21vw;
+    margin-bottom: 3vw;
   }
 }
 /* グレーの線を引く */
@@ -423,7 +423,7 @@ h6 {
   .point {
     height: 606px;
     padding: 3.3vw;
-    margin-top: 86vw;
+    margin-top: 31vw;
     height: 161.0666666667vw;
   }
 }
@@ -656,6 +656,7 @@ h6 {
   line-height: 1.2;
   font-family: "Noto Serif JP";
   font-weight: 400;
+  padding: 0;
 }
 @media (max-width: 767px) {
   .counseling .sub-title h4 {
@@ -671,6 +672,7 @@ h6 {
   font-family: "Noto Serif JP";
   font-weight: 400;
   margin-top: 1.4641288433vw;
+  margin-top: 1.6vw;
 }
 @media (max-width: 767px) {
   .counseling .sub-title .sub-title-text {
@@ -689,6 +691,8 @@ h6 {
 .table-box {
   border-collapse: separate;
   border-spacing: 0.7320644217vw;
+  margin: 0;
+  border-spacing: 1.5vw;
 }
 @media (max-width: 767px) {
   .table-box {
@@ -707,6 +711,7 @@ h6 {
   color: #FFFFFF;
   line-height: 1.2;
   font-weight: 400;
+  padding: 0;
 }
 @media (max-width: 767px) {
   .table-head {
@@ -759,7 +764,7 @@ h6 {
   width: 48.7554904832vw;
   height: 5.270863836vw;
   text-align: left;
-  padding-left: 2.1229868228vw;
+  padding: 0 0 0 2.1229868228vw;
   line-height: 1.8;
   width: 62.6666666667vw;
   height: 28.2666666667vw;
@@ -779,7 +784,7 @@ h6 {
   width: 48.7554904832vw;
   height: 5.270863836vw;
   text-align: left;
-  padding-left: 2.1229868228vw;
+  padding: 0 0 0 2.1229868228vw;
   line-height: 1.8;
   border-radius: 0 0 0.7320644217vw 0;
 }
