@@ -2,6 +2,7 @@
 .price {
   text-align: center;
   margin-top: calc(32 / 1366 * 100vw);
+  height: calc(460 / 1366 * 100vw);
 
   @media (max-width: 767px) {
     margin-top: 4vw;
@@ -43,13 +44,12 @@
   text-align: center;
   justify-content: center;
   margin-top: calc(48 / 1366 * 100vw);
-  margin: 0 auto;
 
   @media (max-width: 767px) {
     width: calc(346 / 375 * 100vw);
     height: calc(58 / 375 * 100vw);
     display: block;
-    margin-top: 11vw;
+    margin: 11vw 3vw 0 3vw;
   }
 }
 
