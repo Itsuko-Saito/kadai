@@ -15,10 +15,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0vw 1.2445095168vw 5.1244509517vw 8.0527086384vw;
+  padding: 0vw 1.2vw 5.1vw 8vw;
   font-family: "Noto Serif JP";
   font-weight: 400;
-  font-size: 2.635431918vw;
+  font-size: 2.6vw;
   color: #000000;
   line-height: 1.7;
   font-weight: 400;
@@ -31,7 +31,7 @@
   }
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   #cover-caption-sp {
     font-family: "Noto Serif JP";
     font-size: 5vw;
@@ -40,19 +40,10 @@
     line-height: 1.6;
     margin-bottom: 3vw;
   }
-} */
-#cover-caption-sp {
-  font-family: "Noto Serif JP";
-  font-size: 5vw;
-  text-align: center;
-  padding-top: 22vw;
-  line-height: 1.6;
-  margin-bottom: 3vw;
 }
 
 /* グレーの線を引く */
 #cover-caption-sp .cv-button {
-  font-family: "Noto Sans JP";
   background-color: #0097A7;
   color: #FEFEFE;
   border-radius: 3vw;
@@ -70,16 +61,19 @@
   font-weight: 300;
 }
 
-/* TODO SP版画像の表示サイズ小さい 画像を調整するとハンバガーボタンがずれてしまう。　秒数短めに変更 */
 .css-carousel-slider {
   width: 100%;
-  /* max-width: 800px */
   /* サイズ設定をする場合はここ(*1) */
   overflow: hidden;
   position: relative;
 }
 
-
+@media (max-width: 767px) {
+  .css-carousel-slider {
+    /* width: 50%; */
+    top: 60px;
+  }
+}
 
 .css-carousel-slider img {
   max-width: 1366px;
@@ -87,7 +81,11 @@
   vertical-align: top;
 }
 
-
+@media (max-width: 767px) {
+  .css-carousel-slider img {
+    height: 100vw;
+  }
+}
 
 /* スライド設定 */
 .css-carousel-slider .slide-wrap {
@@ -98,22 +96,22 @@
   top: 0;
   left: 0;
   z-index: 0;
-  -webkit-animation: css-carousel-slider 20s infinite;
-  animation: css-carousel-slider 20s infinite;
+  -webkit-animation: css-carousel-slider 10s infinite;
+  animation: css-carousel-slider 10s infinite;
   /* スライダーアニメーション全体の時間(*3) */
-  -webkit-animation-delay: 30s;
-  animation-delay: 30s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
   /* スライダーが始まるまでの時間(*4) */
 }
 
 .css-carousel-slider .slide-wrap-main {
   width: 100%;
   z-index: 1;
-  -webkit-animation: css-carousel-slider-main 20s infinite;
-  animation: css-carousel-slider-main 20s infinite;
+  -webkit-animation: css-carousel-slider-main 10s infinite;
+  animation: css-carousel-slider-main 10s infinite;
   /* (*3)と同じ内容を設定 */
-  -webkit-animation-delay: 30s;
-  animation-delay: 30s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
   /* (*4)と同じ内容を設定 */
 }
 
