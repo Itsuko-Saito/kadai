@@ -2,7 +2,7 @@
 #time-table {
   text-align: center;
   height: calc(200 / 1366 * 100vw);
-  margin-top: calc(13 / 1366 * 100vw);
+  margin-top: 2.5vw;
   margin-bottom: 3.392387vw;
 
   @media (max-width: 767px) {
@@ -65,6 +65,5 @@
     height: 6vw;
   }
 }
-
 
 /* time-tableここまで */

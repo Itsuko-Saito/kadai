@@ -1,6 +1,6 @@
 /*  qaここから */
 .qa {
-  height: calc(820/ 1366 * 100vw);
+  height: calc(1000/ 1366 * 100vw);
   padding: 0;
 
   @media (max-width: 767px) {
@@ -58,6 +58,7 @@
   color: #0097A7;
 
   @media (max-width: 767px) {
+    width: 93vw;
     font-size: calc(16 / 375 * 100vw);
     padding: 0 12vw 3vw 5vw;
     line-height: 1.3;
@@ -81,7 +82,6 @@
     padding: 0 0 3vw 5vw;
   }
 }
-
 
 .qa dl dd {
   color: #000000;
@@ -143,7 +143,7 @@
   .qa dl dt::after {
     right: 0.5vw;
     ;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -169,6 +169,14 @@
 
 .qa dl dd :nth-child(3n) {
   padding-top: 70vw;
+}
+
+.qa dl dt {
+  cursor: pointer;
+}
+
+.qa dl dt:hover {
+  opacity: 0.5;
 }
 
 /* qaここまで */

@@ -2,11 +2,12 @@
 #contact-two {
   background-color: #B5E9EE;
   height: calc(437 / 1366 * 100vw);
-  margin-top: 0;
+  padding-top: 3vw;
 
   @media (max-width: 767px) {
     width: calc(375 / 375 * 100vw);
     height: calc(414 / 375 * 100vw);
+    padding: 0;
   }
 }
 

@@ -23,10 +23,9 @@
   color: #000000;
   line-height: 1.7;
   font-weight: 400;
-  z-index: 10;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   #cover-caption-pc {
     display: none;
   }
@@ -56,7 +55,6 @@
   padding: 3vw 2vw 1vw 2vw;
 }
 
-
 #cover-caption-sp .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
@@ -64,6 +62,19 @@
   font-weight: 100;
   width: calc(16 / 375 * 100vw);
 }
+
+@media (max-width: 767px) {
+  .display-pc {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .display-sp {
+    display: none;
+  }
+}
+
 
 .css-carousel-slider {
   width: 100%;
@@ -89,7 +100,6 @@
   }
 }
 
-/* スライド設定 */
 .css-carousel-slider .slide-wrap {
   width: 300%;
   position: absolute;
@@ -99,7 +109,6 @@
   z-index: 0;
   -webkit-animation: css-carousel-slider 30s infinite;
   animation: css-carousel-slider 30s infinite;
-  /* スライダーアニメーション全体の時間(*3) */
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
 }
@@ -109,29 +118,14 @@
   z-index: 1;
   -webkit-animation: css-carousel-slider-main 30s infinite;
   animation: css-carousel-slider-main 30s infinite;
-  /* (*3)と同じ内容を設定 */
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
-  /* (*4)と同じ内容を設定 */
 }
 
 .css-carousel-slider .slide {
   width: 100%;
 }
 
-@media (max-width: 767px) {
-  .display-pc {
-    display: none;
-  }
-}
-
-@media (min-width: 767px) {
-  .display-sp {
-    display: none;
-  }
-}
-
-/* スライダーアニメーションの設定(*5) */
 @-webkit-keyframes css-carousel-slider {
   0% {
     transform: translateX(0);
