@@ -1,6 +1,6 @@
 /*  qaここから */
 .qa {
-  height: 60vw;
+  height: calc(820/ 1366 * 100vw);
   padding: 0;
 
   @media (max-width: 767px) {
