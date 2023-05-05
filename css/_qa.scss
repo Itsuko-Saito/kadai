@@ -1,6 +1,6 @@
 /*  qaここから */
 .qa {
-  height: calc(825/ 1366 * 100vw);
+  height: 60vw;
   padding: 0;
 
   @media (max-width: 767px) {
@@ -38,7 +38,6 @@
   background: #fff;
 }
 
-/* TODOアコーディオン閉じた状態の間隔が異なる */
 @media screen and (max-width: 767px) {
   .qa dl {
     margin: 3.5vw 0.3vw 0 0.3vw;
@@ -139,7 +138,6 @@
     font-weight: 700;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .qa dl dt::after {
