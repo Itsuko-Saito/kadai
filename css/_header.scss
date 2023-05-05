@@ -1,6 +1,4 @@
 /* headerここから */
-/* TODO:リンク先設定すること */
-/* ヘッダー固定に戻すこと */
 .header {
   position: fixed;
   z-index: 1;
@@ -9,13 +7,13 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 767px) {
   .header {
     height: 16vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #FFFFFF
   }
 }
 
@@ -26,6 +24,7 @@
 @media (max-width: 767px) {
   .header-site-menu {
     position: absolute;
+    width: 100%;
     top: 100%;
     left: 0;
     right: 0;

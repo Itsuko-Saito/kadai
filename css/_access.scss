@@ -31,6 +31,7 @@
   font-family: 'Noto Serif JP';
   font-weight: 400;
   padding-top: calc(20 / 1366 * 100vw);
+  padding-bottom: 3.46vw;
 
   @media (max-width: 767px) {
     font-size: 8.5vw;
@@ -41,19 +42,29 @@
 
 #access-map {
   margin: 0 auto;
-  max-width: 100%;
-  margin-top: calc(45 / 1366 * 100vw);
-  height: calc(484 / 1366 * 100vw);
   overflow: hidden;
+}
 
-  @media (max-width: 767px) {
-    width: calc(352 / 375 * 100vw);
-    height: calc(251 / 375 * 100vw);
+@media (max-width: 766px) {
+  #access-map-pc {
+    display: none;
   }
 }
 
+@media (min-width: 768px) {
+  #access-map-sp {
+    display: none;
+  }
+}
+
+#access-map-sp {
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 5vw;
+}
+
 /* TODO JR東京駅のレイアウトPC版がずれている */
-#access-address {
+.access-address {
   padding-top: calc(18 / 1366 * 100vw);
   padding: 0;
   object-fit: cover;
@@ -63,7 +74,7 @@
     text-align: center;
     font-size: 3vw;
     text-align: center;
-    padding: 10vw 12vw 4vw 11vw;
+    padding: 2vw 12vw 4vw 11vw;
     line-height: 1.6;
   }
 }

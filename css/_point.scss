@@ -4,16 +4,16 @@
   box-sizing: border-box;
   height: calc(365 / 1366 * 100vw);
   padding: calc(60 / 1366 * 100vw) 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
 
   @media (max-width: 767px) {
-    height: 606px;
-    padding: 3.3vw;
-    height: calc(604 / 375 * 100vw);
-    margin-top: 85vw;
+    width: 98vw;
+    padding: 17vw 3.3vw 3.3vw 3.3vw;
+    height: 161vw;
+    border-top: 2px solid #606060;
+    margin-bottom: 15vw;
   }
 }
-
-/* TODO：スタイル調整のためマージントップを大きくしていている */
 
 .point ul {
   display: flex;

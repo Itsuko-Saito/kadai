@@ -62,8 +62,6 @@ h6 {
   }
 }
 /* headerここから */
-/* TODO:リンク先設定すること */
-/* ヘッダー固定に戻すこと */
 .header {
   position: fixed;
   z-index: 1;
@@ -72,13 +70,13 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 @media (max-width: 767px) {
   .header {
     height: 16vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #FFFFFF;
   }
 }
 .header-site-menu {
@@ -88,6 +86,7 @@ h6 {
 @media (max-width: 767px) {
   .header-site-menu {
     position: absolute;
+    width: 100%;
     top: 100%;
     left: 0;
     right: 0;
@@ -214,17 +213,18 @@ h6 {
   padding: 0;
   position: relative;
 }
-
 @media (max-width: 767px) {
   .cover {
-    height: 100vw;
+    height: 96vh;
   }
 }
-.cover h2 {
+
+#cover-caption-pc {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 10;
   padding: 0vw 1.2vw 5.1vw 8vw;
   font-family: "Noto Serif JP";
   font-weight: 400;
@@ -242,36 +242,39 @@ h6 {
 }
 #cover-caption-sp {
   font-family: "Noto Serif JP";
-  font-size: 7.4666666667vw;
+  font-size: 5vw;
   text-align: center;
-  padding-top: 15vw;
+  padding-top: 5vw;
   line-height: 1.6;
   margin-bottom: 3vw;
 }
 
 /* グレーの線を引く */
 #cover-caption-sp .cv-button {
+  display: inline-block;
+  width: 58vw;
+  height: 12vw;
   font-family: noto-sans-jp;
   background-color: #0097A7;
   color: #FEFEFE;
-  border-radius: 3vw;
-  font-weight: 400;
-  margin: 0 auto;
-  font-size: 4.8vw;
+  border-radius: 4vw;
+  font-weight: 600;
+  margin: 7vw auto;
+  font-size: 18px;
   line-height: 1.2;
-  padding: 2vw 6vw 2vw 6vw;
+  padding: 3vw 2vw 1vw 2vw;
 }
 
 #cover-caption-sp .cv-button .fa-greater-than {
   font-family: FontAwesome;
   color: #FEFEFE;
   margin-left: 3px;
-  font-weight: 300;
+  font-weight: 100;
+  width: 4.2666666667vw;
 }
 
 .css-carousel-slider {
   width: 100%;
-  /* サイズ設定をする場合はここ(*1) */
   overflow: hidden;
   position: relative;
 }
@@ -295,25 +298,24 @@ h6 {
 /* スライド設定 */
 .css-carousel-slider .slide-wrap {
   width: 300%;
-  /* 画像の合計数*100%を設定(*2) */
   position: absolute;
   display: flex;
   top: 0;
   left: 0;
   z-index: 0;
-  -webkit-animation: css-carousel-slider 10s infinite;
-  animation: css-carousel-slider 10s infinite;
+  -webkit-animation: css-carousel-slider 30s infinite;
+  animation: css-carousel-slider 30s infinite;
   /* スライダーアニメーション全体の時間(*3) */
-  -webkit-animation-delay: 300s;
-  animation-delay: 300s;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
   /* TODO:スライダーが始まるまでの時間(*4) 5秒から３００秒へ変更 */
 }
 
 .css-carousel-slider .slide-wrap-main {
   width: 100%;
   z-index: 1;
-  -webkit-animation: css-carousel-slider-main 10s infinite;
-  animation: css-carousel-slider-main 10s infinite;
+  -webkit-animation: css-carousel-slider-main 30s infinite;
+  animation: css-carousel-slider-main 30s infinite;
   /* (*3)と同じ内容を設定 */
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
@@ -410,17 +412,18 @@ h6 {
   box-sizing: border-box;
   height: 26.7203513909vw;
   padding: 4.39238653vw 0;
+  border-top: 0px solid rgba(0, 0, 0, 0);
 }
 @media (max-width: 767px) {
   .point {
-    height: 606px;
-    padding: 3.3vw;
-    height: 161.0666666667vw;
-    margin-top: 85vw;
+    width: 98vw;
+    padding: 17vw 3.3vw 3.3vw 3.3vw;
+    height: 161vw;
+    border-top: 2px solid #606060;
+    margin-bottom: 15vw;
   }
 }
 
-/* TODO：スタイル調整のためマージントップを大きくしていている */
 .point ul {
   display: flex;
   justify-content: center;
@@ -1048,6 +1051,7 @@ h6 {
   font-family: "Noto Serif JP";
   font-weight: 400;
   padding-top: 1.4641288433vw;
+  padding-bottom: 3.46vw;
 }
 @media (max-width: 767px) {
   #access .sub-title-text {
@@ -1059,32 +1063,39 @@ h6 {
 
 #access-map {
   margin: 0 auto;
-  max-width: 100%;
-  margin-top: 3.2942898975vw;
-  height: 35.4319180088vw;
   overflow: hidden;
 }
-@media (max-width: 767px) {
-  #access-map {
-    width: 93.8666666667vw;
-    height: 66.9333333333vw;
+
+@media (max-width: 766px) {
+  #access-map-pc {
+    display: none;
   }
+}
+@media (min-width: 768px) {
+  #access-map-sp {
+    display: none;
+  }
+}
+#access-map-sp {
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 5vw;
 }
 
 /* TODO JR東京駅のレイアウトPC版がずれている */
-#access-address {
+.access-address {
   padding-top: 1.317715959vw;
   padding: 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width: 767px) {
-  #access-address {
+  .access-address {
     font-size: 3.2vw;
     text-align: center;
     font-size: 3vw;
     text-align: center;
-    padding: 10vw 12vw 4vw 11vw;
+    padding: 2vw 12vw 4vw 11vw;
     line-height: 1.6;
   }
 }
